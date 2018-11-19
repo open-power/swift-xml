@@ -106,6 +106,10 @@
 		<value>3</value>
 		</enumerator>
 		<enumerator>
+		<name>OMI</name>
+		<value>28</value>
+		</enumerator>
+		<enumerator>
 		<name>GPIO</name>
 		<value>6</value>
 		</enumerator>
@@ -1961,21 +1965,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>FUSED_CORE_MODE_HB</id>
-		<enumerator>
-		<name>SMT4_ONLY</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>SMT8_ONLY</name>
-		<value>2</value>
-		</enumerator>
-		<enumerator>
-		<name>SMT4_DEFAULT</name>
-		<value>0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>GPIO_TYPE</id>
 		<enumerator>
 		<name>GPIO_EXP</name>
@@ -2319,17 +2308,6 @@
 		<enumerator>
 		<name>NUMBER_OFFSET</name>
 		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>ISTEP_MODE</id>
-		<enumerator>
-		<name>IPL</name>
-		<value>0x1</value>
-		</enumerator>
-		<enumerator>
-		<name>NON_IPL</name>
-		<value>0x0</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -3310,6 +3288,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>OMI_INBAND_BAR_ENABLE</id>
+		<enumerator>
+		<name>DISABLE</name>
+		<value>0x0</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLE</name>
+		<value>0x1</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>OPTICS_CONFIG_MODE</id>
 		<enumerator>
 		<name>SMP</name>
@@ -3984,6 +3973,10 @@
 		<enumerator>
 		<name>PCI_CLOCK_FAULT</name>
 		<value>0xC7D5</value>
+		</enumerator>
+		<enumerator>
+		<name>PCI_BIFURCATED</name>
+		<value>0xCD03</value>
 		</enumerator>
 		<enumerator>
 		<name>DERATING_FACTOR</name>
@@ -4853,6 +4846,39 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/pallid-0/dimmconn-0</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pallid-0/dimmconn-0/dimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/pallid-0/dimmconn-0/dimm-0/ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/pallid-0/hopper-0</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -5698,10 +5724,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>BLOCK_SPEC_DECONFIG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>BMC_FRU_ID</id>
 		<default>0</default>
 	</attribute>
@@ -5818,14 +5840,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>EFFECTIVE_EC</id>
-		<default>0x10</default>
-	</attribute>
-	<attribute>
 		<id>ENABLE_MEM_EARLY_DATA_SCOM</id>
 		<default></default>
 	</attribute>
@@ -5872,10 +5886,6 @@
 	<attribute>
 		<id>FREQ_A_MHZ</id>
 		<default>0x1900</default>
-	</attribute>
-	<attribute>
-		<id>FREQ_CORE_MAX</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_MEM_REFCLOCK</id>
@@ -5926,14 +5936,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>FUSED_CORE_MODE_HB</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HB_RSV_MEM_SIZE_MB</id>
-		<default>256</default>
-	</attribute>
-	<attribute>
 		<id>HB_SETTINGS</id>
 		<default>
 				<field><id>traceContinuous</id><value></value></field>
@@ -5941,14 +5943,6 @@
 				<field><id>traceFapiDebug</id><value></value></field>
 				<field><id>reserved</id><value></value></field>
 		</default>
-	</attribute>
-	<attribute>
-		<id>HOSTSVC_PLID</id>
-		<default>0x89000000</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_REFCLOCK_RCVR_TERM</id>
@@ -5977,10 +5971,6 @@
 	<attribute>
 		<id>IPS_EXIT_UTILIZATION_PERCENT</id>
 		<default>12</default>
-	</attribute>
-	<attribute>
-		<id>ISTEP_MODE</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>IS_MPIPL_SUPPORTED</id>
@@ -6743,10 +6733,6 @@
 		<default>UNSUPPORTED</default>
 	</attribute>
 	<attribute>
-		<id>RUN_MAX_MEM_PATTERNS</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>SBE_IMAGE_MINIMUM_VALID_ECS</id>
 		<default>2</default>
 	</attribute>
@@ -6847,14 +6833,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>TEST_NEGATIVE_FCN</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>THREAD_COUNT</id>
-		<default>0x4</default>
-	</attribute>
-	<attribute>
 		<id>TPM_REQUIRED</id>
 		<default>1</default>
 	</attribute>
@@ -6948,16 +6926,8 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>FIELD_CORE_OVERRIDE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>FRU_ID</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -7009,6 +6979,8 @@
 	<child_id>pcieslot-3</child_id>
 	<child_id>hopper-0</child_id>
 	<child_id>hopper-1</child_id>
+	<child_id>vpd_assoc_child</child_id>
+	<child_id>dimmconn-0</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
 		<default>NA</default>
@@ -7016,10 +6988,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CARD</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -7850,10 +7818,6 @@
 		<default>0x1DB1</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -7926,10 +7890,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -7984,10 +7944,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -8046,10 +8002,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -8104,10 +8056,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -8166,10 +8114,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -8224,10 +8168,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -8286,10 +8226,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -8344,10 +8280,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -8406,10 +8338,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -8464,10 +8392,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -8526,10 +8450,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -8584,10 +8504,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -8986,10 +8902,6 @@
 		<default>0x1DB1</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -9112,10 +9024,6 @@
 		<default>0x1DB1</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -9236,10 +9144,6 @@
 	<attribute>
 		<id>DEVICE_ID</id>
 		<default>0x1DB1</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -9387,10 +9291,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CARD</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -9817,10 +9717,6 @@
 		<default>CARD</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -9954,10 +9850,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CARD</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -10095,10 +9987,6 @@
 		<default>CARD</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -10202,10 +10090,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CARD</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -10494,10 +10378,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
 		<id>DUMP_STOP_INFO_ENABLE_ERRORLOG</id>
 		<default>1</default>
 	</attribute>
@@ -10637,10 +10517,6 @@
 		<default>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>I2C_BUS_DIV_NEST</id>
 		<default></default>
 	</attribute>
@@ -10701,10 +10577,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>ISTEP_MODE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>L2_CACHE_ASSOC_SETS</id>
 		<default>8</default>
 	</attribute>
@@ -10747,10 +10619,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>MSS_INTERLEAVE_ENABLE</id>
-		<default>0x06</default>
 	</attribute>
 	<attribute>
 		<id>NEST_MEM_X_O_PCI_BYPASS</id>
@@ -10926,30 +10794,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>TIME_BASE</id>
-		<default>0x800000</default>
-	</attribute>
-	<attribute>
-		<id>TLB_DATA_ASSOC_SETS</id>
-		<default>4</default>
-	</attribute>
-	<attribute>
-		<id>TLB_DATA_ENTRIES</id>
-		<default>1024</default>
-	</attribute>
-	<attribute>
-		<id>TLB_INSTR_ASSOC_SETS</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TLB_INSTR_ENTRIES</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TLB_RESERVE_SIZE</id>
-		<default>128</default>
-	</attribute>
-	<attribute>
 		<id>TYPE</id>
 		<default>PROC</default>
 	</attribute>
@@ -10997,10 +10841,6 @@
 		<id>WAIT_N3</id>
 		<default></default>
 	</attribute>
-	<attribute>
-		<id>XIVE_HW_RESET</id>
-		<default>0</default>
-	</attribute>
 </targetInstance>
 <targetInstance>
 	<id>eq0</id>
@@ -11029,14 +10869,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -11095,14 +10927,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -11164,14 +10988,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -11216,20 +11032,12 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -11256,29 +11064,8 @@
 		<default>0x01</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>IPMI_SENSOR</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -11296,20 +11083,12 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -11336,29 +11115,8 @@
 		<default>0x07</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>IPMI_SENSOR</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -11376,20 +11134,12 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -11416,29 +11166,8 @@
 		<default>0xC1</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>IPMI_SENSOR</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -11473,14 +11202,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -11545,14 +11266,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -11610,14 +11323,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -11683,14 +11388,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -11753,14 +11450,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -11817,14 +11506,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -11884,14 +11565,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -11957,14 +11630,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -12027,14 +11692,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -12092,14 +11749,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -12165,14 +11814,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -12235,14 +11876,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -12299,14 +11932,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -12366,14 +11991,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -12439,14 +12056,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -12509,14 +12118,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -12574,14 +12175,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -12647,14 +12240,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -12717,14 +12302,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -12781,14 +12358,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -12848,14 +12417,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -12921,14 +12482,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -12991,14 +12544,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -13056,14 +12601,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -13129,14 +12666,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -13199,14 +12728,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -13263,14 +12784,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -13330,14 +12843,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -13403,14 +12908,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -13473,14 +12970,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -13538,14 +13027,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -13611,14 +13092,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -13681,14 +13154,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -13745,14 +13210,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -13812,14 +13269,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -13885,14 +13334,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -13955,14 +13396,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -14020,14 +13453,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -14093,14 +13518,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -14155,10 +13572,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -14221,10 +13634,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -14279,14 +13688,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -14345,14 +13746,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -14403,14 +13796,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -14474,14 +13859,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -14538,14 +13915,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -14606,14 +13975,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -14670,20 +14031,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -14734,20 +14095,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -14798,14 +14159,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -14864,20 +14217,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -14928,20 +14281,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -14992,14 +14345,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -15060,14 +14405,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -15124,20 +14461,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -15188,20 +14525,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -15252,14 +14589,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -15318,20 +14647,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -15382,20 +14711,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -15447,14 +14776,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -15516,14 +14837,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -15580,14 +14893,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -15651,14 +14956,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -15715,14 +15012,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -15783,14 +15072,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -15847,20 +15128,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -15911,20 +15192,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -15975,14 +15256,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -16041,20 +15314,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -16105,20 +15378,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -16169,14 +15442,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -16237,14 +15502,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -16301,20 +15558,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -16365,20 +15622,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -16429,14 +15686,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -16495,20 +15744,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -16559,20 +15808,20 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_INBAND_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -16624,14 +15873,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -16693,14 +15934,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -16759,14 +15992,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -16822,14 +16047,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -17021,14 +16238,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -17099,10 +16308,6 @@
 	<attribute>
 		<id>ENABLE_CAPI</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOP_NUM</id>
@@ -17184,14 +16389,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -17384,14 +16581,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -17462,10 +16651,6 @@
 	<attribute>
 		<id>ENABLE_CAPI</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOP_NUM</id>
@@ -17549,14 +16734,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -17627,10 +16804,6 @@
 	<attribute>
 		<id>ENABLE_CAPI</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOP_NUM</id>
@@ -17714,14 +16887,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -17917,14 +17082,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -18043,10 +17200,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>IOP_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -18153,14 +17306,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -18231,10 +17376,6 @@
 	<attribute>
 		<id>ENABLE_CAPI</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOP_NUM</id>
@@ -18318,14 +17459,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -18396,10 +17529,6 @@
 	<attribute>
 		<id>ENABLE_CAPI</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOP_NUM</id>
@@ -18505,14 +17634,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -18583,10 +17704,6 @@
 	<attribute>
 		<id>ENABLE_CAPI</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOP_NUM</id>
@@ -18670,14 +17787,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -18748,10 +17857,6 @@
 	<attribute>
 		<id>ENABLE_CAPI</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOP_NUM</id>
@@ -18835,14 +17940,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -18913,10 +18010,6 @@
 	<attribute>
 		<id>ENABLE_CAPI</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOP_NUM</id>
@@ -19003,14 +18096,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
@@ -19111,14 +18196,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
@@ -19225,14 +18302,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -19335,14 +18404,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
@@ -19449,14 +18510,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -19561,14 +18614,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -19607,10 +18652,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OBUS_BRICK_LANE_MASK</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
@@ -19673,14 +18714,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -19719,10 +18752,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OBUS_BRICK_LANE_MASK</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
@@ -19783,14 +18812,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
@@ -19891,14 +18912,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
@@ -20005,14 +19018,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -20117,14 +19122,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -20163,10 +19160,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OBUS_BRICK_LANE_MASK</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
@@ -20229,14 +19222,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -20275,10 +19260,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OBUS_BRICK_LANE_MASK</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
@@ -20339,14 +19320,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
@@ -20447,14 +19420,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
@@ -20561,14 +19526,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -20673,14 +19630,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -20719,10 +19668,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OBUS_BRICK_LANE_MASK</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
@@ -20785,14 +19730,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -20831,10 +19768,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OBUS_BRICK_LANE_MASK</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
@@ -20897,14 +19830,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
@@ -21005,14 +19930,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
@@ -21119,14 +20036,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -21229,14 +20138,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
@@ -21343,14 +20244,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -21455,14 +20348,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -21501,10 +20386,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OBUS_BRICK_LANE_MASK</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
@@ -21567,14 +20448,6 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -21613,10 +20486,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OBUS_BRICK_LANE_MASK</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
@@ -21671,14 +20540,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -21729,14 +20590,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -21791,14 +20644,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -21849,14 +20694,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -21911,14 +20748,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -21969,14 +20798,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -22031,14 +20852,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -22089,14 +20902,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -22151,14 +20956,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -22209,14 +21006,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -22271,14 +21060,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -22329,14 +21110,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -22391,14 +21164,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -22449,14 +21214,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -22511,14 +21268,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -22569,14 +21318,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -22631,14 +21372,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -22689,14 +21422,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -22751,14 +21476,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -22809,14 +21526,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -22871,14 +21580,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -22929,14 +21630,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -22991,14 +21684,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -23049,14 +21734,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -23111,14 +21788,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -23169,14 +21838,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -23231,14 +21892,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -23289,14 +21942,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -23351,14 +21996,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -23409,14 +22046,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -23471,14 +22100,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -23529,14 +22150,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -23591,14 +22204,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -23649,14 +22254,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -23711,14 +22308,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -23769,14 +22358,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -23831,14 +22412,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -23889,14 +22462,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -23951,14 +22516,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -24009,14 +22566,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -24071,14 +22620,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -24129,14 +22670,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -24191,14 +22724,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -24249,14 +22774,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -24311,14 +22828,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -24369,14 +22878,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -24431,14 +22932,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -24489,14 +22982,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -24551,14 +23036,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -24609,14 +23086,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -24671,14 +23140,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -24729,14 +23190,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -24791,14 +23244,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -24849,14 +23294,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -24911,14 +23348,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -24969,14 +23398,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -25031,14 +23452,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -25089,14 +23502,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -25151,14 +23556,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -25209,14 +23606,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -25271,14 +23660,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -25329,14 +23710,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -25391,14 +23764,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -25449,14 +23814,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -25511,14 +23868,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -25569,14 +23918,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -25631,14 +23972,6 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>AXONE</default>
 	</attribute>
@@ -25689,14 +24022,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -25759,15 +24084,7 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
 		<id>EI_BUS_TX_MSBSWAP</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -25855,15 +24172,7 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
 		<id>EI_BUS_TX_MSBSWAP</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -25951,15 +24260,7 @@
 		<default>INOUT</default>
 	</attribute>
 	<attribute>
-		<id>DUMMY_RW</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
 		<id>EI_BUS_TX_MSBSWAP</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -26047,20 +24348,8 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FSI_ENGINE</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>FSI_LINK</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
 		<id>FSI_PORT</id>
 		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -26123,20 +24412,8 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FSI_ENGINE</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>FSI_LINK</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
 		<id>FSI_PORT</id>
 		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -26211,10 +24488,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -26285,10 +24558,6 @@
 	<attribute>
 		<id>FSI_PORT</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -26363,10 +24632,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -26437,10 +24702,6 @@
 	<attribute>
 		<id>FSI_PORT</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -26515,10 +24776,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -26589,10 +24846,6 @@
 	<attribute>
 		<id>FSI_PORT</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -26667,10 +24920,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -26741,10 +24990,6 @@
 	<attribute>
 		<id>FSI_PORT</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -26819,10 +25064,6 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -26893,10 +25134,6 @@
 	<attribute>
 		<id>FSI_PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -26971,10 +25208,6 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -27045,10 +25278,6 @@
 	<attribute>
 		<id>FSI_PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -27123,10 +25352,6 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -27197,10 +25422,6 @@
 	<attribute>
 		<id>FSI_PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -27275,10 +25496,6 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -27349,10 +25566,6 @@
 	<attribute>
 		<id>FSI_PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -27427,10 +25640,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -27501,10 +25710,6 @@
 	<attribute>
 		<id>FSI_PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -27579,10 +25784,6 @@
 		<default>2</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -27639,14 +25840,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>I2C_ENGINE</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>I2C_PORT</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -27670,10 +25863,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -27684,10 +25873,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -27702,25 +25887,8 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -27729,10 +25897,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -27750,10 +25914,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -27764,10 +25924,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -27782,25 +25938,8 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -27809,10 +25948,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -27830,10 +25965,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -27844,10 +25975,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -27862,25 +25989,8 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -27889,10 +25999,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -27910,10 +26016,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -27924,10 +26026,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -27942,25 +26040,8 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -27969,10 +26050,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -27990,10 +26067,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -28004,10 +26077,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -28022,25 +26091,8 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -28049,10 +26101,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -28070,10 +26118,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -28084,10 +26128,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -28102,25 +26142,8 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -28129,10 +26152,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -28150,10 +26169,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -28164,10 +26179,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -28182,25 +26193,8 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -28209,10 +26203,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -28230,10 +26220,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -28244,10 +26230,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -28262,25 +26244,8 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -28289,10 +26254,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -28310,10 +26271,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -28324,10 +26281,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -28342,25 +26295,8 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -28369,10 +26305,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -28390,10 +26322,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -28404,10 +26332,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -28422,25 +26346,8 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -28449,10 +26356,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -28470,10 +26373,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -28484,10 +26383,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -28502,25 +26397,8 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -28529,10 +26407,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -28550,10 +26424,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>1</default>
 	</attribute>
@@ -28564,10 +26434,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -28582,25 +26448,8 @@
 		<default>0x01</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -28609,10 +26458,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -28630,10 +26475,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -28644,10 +26485,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -28662,25 +26499,8 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -28689,10 +26509,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -28710,10 +26526,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -28724,10 +26536,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -28742,25 +26550,8 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -28769,10 +26560,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -28790,10 +26577,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -28804,10 +26587,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -28822,25 +26601,8 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -28849,10 +26611,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -28870,10 +26628,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -28884,10 +26638,6 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
@@ -28902,25 +26652,8 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -28929,10 +26662,6 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -28950,10 +26679,6 @@
 		<default>LPC</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>1</default>
 	</attribute>
@@ -28966,33 +26691,8 @@
 		<default>OUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -29010,10 +26710,6 @@
 		<default>PSI</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>1</default>
 	</attribute>
@@ -29026,37 +26722,12 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
 		<id>PSI_ENGINE</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -29074,10 +26745,6 @@
 		<default>SPI</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>1</default>
 	</attribute>
@@ -29090,33 +26757,8 @@
 		<default>OUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SPI_ENGINE</id>
@@ -29146,10 +26788,6 @@
 		<default>AVS</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -29162,33 +26800,8 @@
 		<default>OUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -29222,10 +26835,6 @@
 		<default>AVS</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>1</default>
 	</attribute>
@@ -29238,33 +26847,8 @@
 		<default>OUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -29298,10 +26882,6 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -29328,20 +26908,8 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
@@ -29355,19 +26923,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -29390,10 +26945,6 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -29420,20 +26971,8 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
@@ -29447,19 +26986,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -29482,10 +27008,6 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -29498,37 +27020,12 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
 		<id>RAIL_NAME</id>
 		<default>VDD</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -29546,10 +27043,6 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -29562,37 +27055,12 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
 		<id>RAIL_NAME</id>
 		<default>VCS</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -29610,10 +27078,6 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -29626,37 +27090,12 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
 		<id>RAIL_NAME</id>
 		<default>VDN</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -29674,10 +27113,6 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -29690,37 +27125,12 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
 		<id>RAIL_NAME</id>
 		<default>VIO</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -29738,10 +27148,6 @@
 		<default>CLK</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -29754,39 +27160,14 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
 				<field><id>Value</id><value></value></field>
 		</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -29804,10 +27185,6 @@
 		<default>CLK</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -29820,39 +27197,14 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
 				<field><id>Value</id><value></value></field>
 		</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -29870,10 +27222,6 @@
 		<default>CLK</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -29886,39 +27234,14 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
 				<field><id>Value</id><value></value></field>
 		</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -29936,10 +27259,6 @@
 		<default>LPC</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -29952,39 +27271,14 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
 				<field><id>Value</id><value></value></field>
 		</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -30002,10 +27296,6 @@
 		<default>CLK</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -30018,39 +27308,14 @@
 		<default>OUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
 				<field><id>Value</id><value></value></field>
 		</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -30068,10 +27333,6 @@
 		<default>CLK</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -30084,39 +27345,14 @@
 		<default>OUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
 				<field><id>Value</id><value></value></field>
 		</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -30134,10 +27370,6 @@
 		<default>CLK</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -30150,39 +27382,14 @@
 		<default>OUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
 				<field><id>Value</id><value></value></field>
 		</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -30200,10 +27407,6 @@
 		<default>CLK</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -30216,39 +27419,14 @@
 		<default>OUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
 				<field><id>Value</id><value></value></field>
 		</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -30266,10 +27444,6 @@
 		<default>CLK</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -30282,39 +27456,14 @@
 		<default>OUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
 				<field><id>Value</id><value></value></field>
 		</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -30332,10 +27481,6 @@
 		<default>CLK</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -30348,39 +27493,14 @@
 		<default>OUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
 				<field><id>Value</id><value></value></field>
 		</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -30398,10 +27518,6 @@
 		<default>CLK</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -30414,39 +27530,14 @@
 		<default>OUT</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
 				<field><id>Value</id><value></value></field>
 		</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -30468,10 +27559,6 @@
 		<default>LOGICAL_ASSOCIATION</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -30484,33 +27571,8 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -30528,20 +27590,12 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -30568,29 +27622,8 @@
 		<default>0x01</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>IPMI_SENSOR</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -30608,20 +27641,12 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -30648,29 +27673,8 @@
 		<default>0x07</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>IPMI_SENSOR</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -30749,10 +27753,6 @@
 		<default>CARD</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -30796,6 +27796,625 @@
 	<attribute>
 		<id>STANDBY_PLUGGABLE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>vpd_assoc_child</id>
+	<type>unit-logic_assoc-generic</type>
+	<is_root>false</is_root>
+	<instance_name>vpd_assoc_child</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>ASSOCIATION_TYPE</id>
+		<default>VPD</default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>LOGICAL_ASSOCIATION</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>dimmconn-0</id>
+	<type>connector-dimmconn-ddimm</type>
+	<is_root>false</is_root>
+	<instance_name>dimmconn</instance_name>
+	<position>0</position>
+	<child_id>dimm-0</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>CONNECTOR_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>JEDEC</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>dimm-0</id>
+	<type>lcard-dimm-ddimm</type>
+	<is_root>false</is_root>
+	<instance_name>dimm</instance_name>
+	<position>0</position>
+	<child_id>ocmb</child_id>
+	<child_id>spd</child_id>
+	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
+	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
+	<hidden_child_id>dimm_func_sensor</hidden_child_id>
+	<attribute>
+		<id>CARD_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CDM_DOMAIN</id>
+		<default>DIMM</default>
+	</attribute>
+	<attribute>
+		<id>CEN_DQ_TO_DIMM_CONN_DQ</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CEN_MBA_DIMM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CEN_MBA_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>LOGICAL_CARD</default>
+	</attribute>
+	<attribute>
+		<id>EEPROM_NV_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>byteAddrOffset</id><value></value></field>
+				<field><id>maxMemorySizeKB</id><value></value></field>
+				<field><id>chipCount</id><value></value></field>
+				<field><id>writePageSize</id><value></value></field>
+				<field><id>writeCycleTime</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>EEPROM_VPD_PRIMARY_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>byteAddrOffset</id><value></value></field>
+				<field><id>maxMemorySizeKB</id><value></value></field>
+				<field><id>chipCount</id><value></value></field>
+				<field><id>writePageSize</id><value></value></field>
+				<field><id>writeCycleTime</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSORS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MBA_DIMM</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MBA_PORT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MEM_PORT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>JEDEC</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>POS_ON_MEM_PORT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value></value></field>
+				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsInbandScom</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>STANDBY_PLUGGABLE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TEMP_SENSOR_I2C_CONFIG</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>DIMM</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>ocmb</id>
+	<type>chip-ocmb</type>
+	<is_root>false</is_root>
+	<instance_name>ocmb</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>OMI</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>JEDEC</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value></value></field>
+				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsInbandScom</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>OCMB_CHIP</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>spd</id>
+	<type>chip-spd-device</type>
+	<is_root>false</is_root>
+	<instance_name>spd</instance_name>
+	<position>-1</position>
+	<child_id>i2c-slave</child_id>
+	<attribute>
+		<id>BYTE_ADDRESS_OFFSET</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>I2C_SPEED</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MEMORY_SIZE_IN_KB</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>SPD</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VPD_TYPE</id>
+		<default>SPD</default>
+	</attribute>
+	<attribute>
+		<id>WRITE_CYCLE_TIME</id>
+		<default>0x05</default>
+	</attribute>
+	<attribute>
+		<id>WRITE_PAGE_SIZE</id>
+		<default>0x50</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>dimm_temp_sensor0</id>
+	<type>unit-ipmi-sensor</type>
+	<is_root>false</is_root>
+	<instance_name>dimm_temp_sensor0</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0x20</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
+		<default>Temp</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_OFFSETS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>IPMI_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>dimm_temp_sensor1</id>
+	<type>unit-ipmi-sensor</type>
+	<is_root>false</is_root>
+	<instance_name>dimm_temp_sensor1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0x20</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
+		<default>Temp</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_OFFSETS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>IPMI_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>dimm_func_sensor</id>
+	<type>unit-ipmi-sensor</type>
+	<is_root>false</is_root>
+	<instance_name>dimm_func_sensor</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0x20</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
+		<default>Func</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_OFFSETS</id>
+		<default>0x04,0x08</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x6F</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0x0C</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>IPMI_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
