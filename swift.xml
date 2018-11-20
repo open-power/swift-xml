@@ -4846,6 +4846,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/Bohm-0/daughtercard-0/bmc-0/chip-bmc-ast2500.pin_L17_pcie/chip-bmc-ast2500.pingroup_pcie/chip-bmc-ast2500.pcie</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-0</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -5448,6 +5459,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack1_x16/CP1-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack1_x16/NVMe_D2-2</id>
 	<property>
 	<id>DIRECTION</id>
@@ -5543,9 +5561,31 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/obusslot-0/ga100card-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/obusslot-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/obusslot-1/ga100card-1/pciep</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 	<property>
@@ -5565,9 +5605,31 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/obusslot-2/ga100card-2/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/obusslot-3</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/obusslot-3/ga100card-3/pciep</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 	<property>
@@ -5609,6 +5671,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/pcieslot-0/pciecard-0/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/pcieslot-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -5620,9 +5693,31 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/pcieslot-1/pciecard-1/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/pcieslot-2</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/pcieslot-2/pciecard-2/pciep</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 	<property>
@@ -5709,6 +5804,34 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/pec0/pec0_x16_config/phb0_x16/phb0_x16_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/pec1/pec1_x8_x8_config/phb2_x8/phb2_x8_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/pec2/pec2_x16_config/phb3_x16/phb3_x16_pci</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -5716,6 +5839,27 @@
 	</property>
 	<property>
 	<id>PBAX_GROUPID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/pec0/pec0_x16_config/phb0_x16/phb0_x16_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_bus</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/pec2/pec2_x16_config/phb3_x16/phb3_x16_pci</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -7169,6 +7313,325 @@
 		<id>TYPE</id>
 		<default>NA</default>
 	</attribute>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/pec0/pec0_x16_config/phb0_x16/phb0_x16_bus => pcieslot-0/pciecard-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/pec0/pec0_x16_config/phb0_x16/</source_path>
+		<source_target>phb0_x16_bus</source_target>
+		<dest_path>pcieslot-0/pciecard-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/pec2/pec2_x16_config/phb3_x16/phb3_x16_pci => pcieslot-1/pciecard-1/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/pec2/pec2_x16_config/phb3_x16/</source_path>
+		<source_target>phb3_x16_pci</source_target>
+		<dest_path>pcieslot-1/pciecard-1/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/Hopper-1/p9_axone/pec0/pec0_x16_config/phb0_x16/phb0_x16_bus => pcieslot-2/pciecard-2/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/Hopper-1/p9_axone/pec0/pec0_x16_config/phb0_x16/</source_path>
+		<source_target>phb0_x16_bus</source_target>
+		<dest_path>pcieslot-2/pciecard-2/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/Hopper-1/p9_axone/pec2/pec2_x16_config/phb3_x16/phb3_x16_pci => pcieslot-2/pciecard-2/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/Hopper-1/p9_axone/pec2/pec2_x16_config/phb3_x16/</source_path>
+		<source_target>phb3_x16_pci</source_target>
+		<dest_path>pcieslot-2/pciecard-2/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_bus => microsemi-0/pm40052-0/stack1_x16/CP0-0</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/pec1/pec1_x8_x8_config/phb1_x8/</source_path>
+		<source_target>phb1_x8_bus</source_target>
+		<dest_path>microsemi-0/pm40052-0/stack1_x16/</dest_path>
+		<dest_target>CP0-0</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/Hopper-1/p9_axone/pec1/pec1_x8_x8_config/phb1_x8/phb1_x8_bus => microsemi-0/pm40052-0/stack1_x16/CP1-1</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/Hopper-1/p9_axone/pec1/pec1_x8_x8_config/phb1_x8/</source_path>
+		<source_target>phb1_x8_bus</source_target>
+		<dest_path>microsemi-0/pm40052-0/stack1_x16/</dest_path>
+		<dest_target>CP1-1</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>microsemi-0/pm40052-0/stack3_x16/GPU0-5 => obusslot-0/ga100card-0/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>microsemi-0/pm40052-0/stack3_x16/</source_path>
+		<source_target>GPU0-5</source_target>
+		<dest_path>obusslot-0/ga100card-0/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>microsemi-0/pm40052-0/stack3_x16/GPU1-6 => obusslot-1/ga100card-1/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>microsemi-0/pm40052-0/stack3_x16/</source_path>
+		<source_target>GPU1-6</source_target>
+		<dest_path>obusslot-1/ga100card-1/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>microsemi-0/pm40052-0/stack4_x16/GPU2-9 => obusslot-2/ga100card-2/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>microsemi-0/pm40052-0/stack4_x16/</source_path>
+		<source_target>GPU2-9</source_target>
+		<dest_path>obusslot-2/ga100card-2/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>microsemi-0/pm40052-0/stack4_x16/GPU3-10 => obusslot-3/ga100card-3/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>microsemi-0/pm40052-0/stack4_x16/</source_path>
+		<source_target>GPU3-10</source_target>
+		<dest_path>obusslot-3/ga100card-3/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/pec1/pec1_x8_x8_config/phb2_x8/phb2_x8_bus => Bohm-0/daughtercard-0/bmc-0/chip-bmc-ast2500.pin_L17_pcie/chip-bmc-ast2500.pingroup_pcie/chip-bmc-ast2500.pcie</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/pec1/pec1_x8_x8_config/phb2_x8/</source_path>
+		<source_target>phb2_x8_bus</source_target>
+		<dest_path>Bohm-0/daughtercard-0/bmc-0/chip-bmc-ast2500.pin_L17_pcie/chip-bmc-ast2500.pingroup_pcie/</dest_path>
+		<dest_target>chip-bmc-ast2500.pcie</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
 </targetInstance>
 <targetInstance>
 	<id>vpd_assoc_child</id>
@@ -73154,8 +73617,16 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>SCHEMATIC_INTERFACE</id>
@@ -73247,8 +73718,12 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>UNIT</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -73261,14 +73736,6 @@
 	<attribute>
 		<id>PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>STATION</id>
@@ -73298,8 +73765,12 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>UNIT</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -73312,14 +73783,6 @@
 	<attribute>
 		<id>PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>STATION</id>
@@ -73351,8 +73814,12 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>UNIT</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -73365,14 +73832,6 @@
 	<attribute>
 		<id>PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>STATION</id>
@@ -73554,8 +74013,12 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>UNIT</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -73568,14 +74031,6 @@
 	<attribute>
 		<id>PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>3</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>STATION</id>
@@ -73788,8 +74243,12 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>UNIT</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -73802,14 +74261,6 @@
 	<attribute>
 		<id>PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>4</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>STATION</id>
@@ -73990,8 +74441,12 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>UNIT</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -74004,14 +74459,6 @@
 	<attribute>
 		<id>PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>STATION</id>
@@ -74117,8 +74564,12 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>UNIT</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -74131,14 +74582,6 @@
 	<attribute>
 		<id>PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>STATION</id>
@@ -74244,8 +74687,12 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>UNIT</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -74258,14 +74705,6 @@
 	<attribute>
 		<id>PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>6</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>STATION</id>
@@ -74403,8 +74842,12 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>UNIT</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -74417,14 +74860,6 @@
 	<attribute>
 		<id>PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>7</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>STATION</id>
@@ -74606,8 +75041,12 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>UNIT</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -74620,14 +75059,6 @@
 	<attribute>
 		<id>PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>8</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>STATION</id>
@@ -74808,8 +75239,12 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>UNIT</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -74822,14 +75257,6 @@
 	<attribute>
 		<id>PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>9</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>STATION</id>
@@ -74935,8 +75362,12 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>UNIT</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -74949,14 +75380,6 @@
 	<attribute>
 		<id>PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>10</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>STATION</id>
@@ -75091,8 +75514,12 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>UNIT</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -75105,14 +75532,6 @@
 	<attribute>
 		<id>PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>STATION</id>
@@ -75218,8 +75637,12 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>UNIT</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -75232,14 +75655,6 @@
 	<attribute>
 		<id>PORT</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>STATION</id>
