@@ -5270,6 +5270,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-10/dimm-10/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-11</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -5288,6 +5295,13 @@
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-11/dimm-11/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -5314,6 +5328,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-12/dimm-12/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-13</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -5332,6 +5353,13 @@
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-13/dimm-13/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -5358,6 +5386,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-14/dimm-14/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-15</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -5376,6 +5411,13 @@
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-15/dimm-15/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -5402,6 +5444,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-16/dimm-16/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-17</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -5420,6 +5469,13 @@
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-17/dimm-17/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -5446,6 +5502,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-18/dimm-18/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-19</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -5464,6 +5527,13 @@
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-19/dimm-19/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -5519,6 +5589,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-20/dimm-20/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-21</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -5537,6 +5614,13 @@
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-21/dimm-21/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -5563,6 +5647,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-22/dimm-22/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-23</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -5581,6 +5672,13 @@
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-23/dimm-23/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -5752,6 +5850,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-8/dimm-8/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-9</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -5770,6 +5875,13 @@
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-9/dimm-9/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6434,6 +6546,77 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PBAX_GROUPID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/mc0/mi0/mcc0/omi0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/mc0/mi0/mcc0/omi1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/mc0/mi0/mcc1/omi2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/mc0/mi0/mcc1/omi3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/mc0/mi1/mcc2/omi4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/mc0/mi1/mcc2/omi5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/mc0/mi1/mcc3/omi6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/mc0/mi1/mcc3/omi7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/mc0/omic0/omi4</id>
 	<property>
 	<id>DIRECTION</id>
@@ -6484,6 +6667,34 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/mc0/omic2/omi1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/mc1/mi2/mcc4/omi8</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/mc1/mi2/mcc4/omi9</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/mc1/mi2/mcc5/omi10</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/mc1/mi2/mcc5/omi11</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -6628,6 +6839,90 @@
 	</property>
 	<property>
 	<id>PBAX_GROUPID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/mc0/mi0/mcc0/omi0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/mc0/mi0/mcc0/omi1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/mc0/mi0/mcc1/omi2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/mc0/mi0/mcc1/omi3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/mc0/mi1/mcc2/omi4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/mc0/mi1/mcc2/omi5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/mc0/mi1/mcc3/omi6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/mc0/mi1/mcc3/omi7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/mc1/mi2/mcc4/omi8</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/mc1/mi2/mcc4/omi9</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/mc1/mi2/mcc5/omi10</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/mc1/mi2/mcc5/omi11</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -8829,6 +9124,318 @@
 		<bus_attribute>
 			<id>OBUS_CONFIG</id>
 		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/mc0/mi0/mcc0/omi0 => dimmconn-0/dimm-0/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/mc0/mi0/mcc0/</source_path>
+		<source_target>omi0</source_target>
+		<dest_path>dimmconn-0/dimm-0/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/mc0/mi0/mcc0/omi1 => dimmconn-1/dimm-1/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/mc0/mi0/mcc0/</source_path>
+		<source_target>omi1</source_target>
+		<dest_path>dimmconn-1/dimm-1/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/mc0/mi0/mcc1/omi2 => dimmconn-2/dimm-2/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/mc0/mi0/mcc1/</source_path>
+		<source_target>omi2</source_target>
+		<dest_path>dimmconn-2/dimm-2/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/mc0/mi0/mcc1/omi3 => dimmconn-3/dimm-3/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/mc0/mi0/mcc1/</source_path>
+		<source_target>omi3</source_target>
+		<dest_path>dimmconn-3/dimm-3/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/mc0/mi1/mcc2/omi4 => dimmconn-4/dimm-4/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/mc0/mi1/mcc2/</source_path>
+		<source_target>omi4</source_target>
+		<dest_path>dimmconn-4/dimm-4/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/mc0/mi1/mcc2/omi5 => dimmconn-5/dimm-5/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/mc0/mi1/mcc2/</source_path>
+		<source_target>omi5</source_target>
+		<dest_path>dimmconn-5/dimm-5/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/mc0/mi1/mcc3/omi6 => dimmconn-6/dimm-6/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/mc0/mi1/mcc3/</source_path>
+		<source_target>omi6</source_target>
+		<dest_path>dimmconn-6/dimm-6/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/mc0/mi1/mcc3/omi7 => dimmconn-7/dimm-7/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/mc0/mi1/mcc3/</source_path>
+		<source_target>omi7</source_target>
+		<dest_path>dimmconn-7/dimm-7/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/mc1/mi2/mcc4/omi8 => dimmconn-8/dimm-8/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/mc1/mi2/mcc4/</source_path>
+		<source_target>omi8</source_target>
+		<dest_path>dimmconn-8/dimm-8/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/mc1/mi2/mcc4/omi9 => dimmconn-9/dimm-9/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/mc1/mi2/mcc4/</source_path>
+		<source_target>omi9</source_target>
+		<dest_path>dimmconn-9/dimm-9/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/mc1/mi2/mcc5/omi10 => dimmconn-10/dimm-10/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/mc1/mi2/mcc5/</source_path>
+		<source_target>omi10</source_target>
+		<dest_path>dimmconn-10/dimm-10/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/mc1/mi2/mcc5/omi11 => dimmconn-11/dimm-11/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/mc1/mi2/mcc5/</source_path>
+		<source_target>omi11</source_target>
+		<dest_path>dimmconn-11/dimm-11/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/Hopper-1/p9_axone/mc0/mi0/mcc0/omi0 => dimmconn-12/dimm-12/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/Hopper-1/p9_axone/mc0/mi0/mcc0/</source_path>
+		<source_target>omi0</source_target>
+		<dest_path>dimmconn-12/dimm-12/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/Hopper-1/p9_axone/mc0/mi0/mcc0/omi1 => dimmconn-13/dimm-13/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/Hopper-1/p9_axone/mc0/mi0/mcc0/</source_path>
+		<source_target>omi1</source_target>
+		<dest_path>dimmconn-13/dimm-13/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/Hopper-1/p9_axone/mc0/mi0/mcc1/omi2 => dimmconn-14/dimm-14/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/Hopper-1/p9_axone/mc0/mi0/mcc1/</source_path>
+		<source_target>omi2</source_target>
+		<dest_path>dimmconn-14/dimm-14/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/Hopper-1/p9_axone/mc0/mi0/mcc1/omi3 => dimmconn-15/dimm-15/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/Hopper-1/p9_axone/mc0/mi0/mcc1/</source_path>
+		<source_target>omi3</source_target>
+		<dest_path>dimmconn-15/dimm-15/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/Hopper-1/p9_axone/mc0/mi1/mcc2/omi4 => dimmconn-16/dimm-16/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/Hopper-1/p9_axone/mc0/mi1/mcc2/</source_path>
+		<source_target>omi4</source_target>
+		<dest_path>dimmconn-16/dimm-16/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/Hopper-1/p9_axone/mc0/mi1/mcc2/omi5 => dimmconn-17/dimm-17/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/Hopper-1/p9_axone/mc0/mi1/mcc2/</source_path>
+		<source_target>omi5</source_target>
+		<dest_path>dimmconn-17/dimm-17/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/Hopper-1/p9_axone/mc0/mi1/mcc3/omi6 => dimmconn-18/dimm-18/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/Hopper-1/p9_axone/mc0/mi1/mcc3/</source_path>
+		<source_target>omi6</source_target>
+		<dest_path>dimmconn-18/dimm-18/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/Hopper-1/p9_axone/mc0/mi1/mcc3/omi7 => dimmconn-19/dimm-19/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/Hopper-1/p9_axone/mc0/mi1/mcc3/</source_path>
+		<source_target>omi7</source_target>
+		<dest_path>dimmconn-19/dimm-19/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/Hopper-1/p9_axone/mc1/mi2/mcc4/omi8 => dimmconn-20/dimm-20/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/Hopper-1/p9_axone/mc1/mi2/mcc4/</source_path>
+		<source_target>omi8</source_target>
+		<dest_path>dimmconn-20/dimm-20/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/Hopper-1/p9_axone/mc1/mi2/mcc4/omi9 => dimmconn-21/dimm-21/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/Hopper-1/p9_axone/mc1/mi2/mcc4/</source_path>
+		<source_target>omi9</source_target>
+		<dest_path>dimmconn-21/dimm-21/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/Hopper-1/p9_axone/mc1/mi2/mcc5/omi10 => dimmconn-22/dimm-22/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/Hopper-1/p9_axone/mc1/mi2/mcc5/</source_path>
+		<source_target>omi10</source_target>
+		<dest_path>dimmconn-22/dimm-22/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/Hopper-1/p9_axone/mc1/mi2/mcc5/omi11 => dimmconn-23/dimm-23/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/Hopper-1/p9_axone/mc1/mi2/mcc5/</source_path>
+		<source_target>omi11</source_target>
+		<dest_path>dimmconn-23/dimm-23/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
