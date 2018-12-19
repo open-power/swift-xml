@@ -4911,6 +4911,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/Bohm-0/daughtercard-0/fsi_bit_bang-0/fsi_bit_bang.fsi_master-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/Cassin-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -6671,6 +6682,24 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/fsi-slave-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/fsim-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FSI_LINK</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/mc0/mi0/mcc0/omi0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -6949,6 +6978,13 @@
 	</property>
 	<property>
 	<id>PBAX_GROUPID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/fsi-slave-0</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -8627,6 +8663,48 @@
 		<id>TYPE</id>
 		<default>NA</default>
 	</attribute>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/fsim-0 => proc_socket-1/Hopper-1/p9_axone/fsi-slave-0</bus_id>
+		<bus_type>FSIM</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/</source_path>
+		<source_target>fsim-0</source_target>
+		<dest_path>proc_socket-1/Hopper-1/p9_axone/</dest_path>
+		<dest_target>fsi-slave-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>Bohm-0/daughtercard-0/fsi_bit_bang-0/fsi_bit_bang.fsi_master-0 => proc_socket-0/Hopper-0/p9_axone/fsi-slave-0</bus_id>
+		<bus_type>FSIM</bus_type>
+		<cable>no</cable>
+		<source_path>Bohm-0/daughtercard-0/fsi_bit_bang-0/</source_path>
+		<source_target>fsi_bit_bang.fsi_master-0</source_target>
+		<dest_path>proc_socket-0/Hopper-0/p9_axone/</dest_path>
+		<dest_target>fsi-slave-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
 	<bus>
 		<bus_id>proc_socket-0/Hopper-0/p9_axone/obus2/obus-brick6 =c=> obusslot-4/OpenCAPI-0/brick-0</bus_id>
 		<bus_type>OBUS</bus_type>
@@ -16492,6 +16570,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
 		<default></default>
 	</attribute>
@@ -16502,10 +16584,6 @@
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
 		<default>16</default>
-	</attribute>
-	<attribute>
-	        <id>PCIE_LANE_GROUP</id>
-	        <default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHB_NUM</id>
@@ -16843,6 +16921,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
 		<default></default>
 	</attribute>
@@ -16853,10 +16935,6 @@
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
 		<default>8</default>
-	</attribute>
-	<attribute>
-	        <id>PCIE_LANE_GROUP</id>
-	        <default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHB_NUM</id>
@@ -17000,6 +17078,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
 		<default></default>
 	</attribute>
@@ -17010,10 +17092,6 @@
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
 		<default>8</default>
-	</attribute>
-	<attribute>
-	        <id>PCIE_LANE_GROUP</id>
-	        <default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHB_NUM</id>
@@ -17584,6 +17662,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
 		<default></default>
 	</attribute>
@@ -17594,10 +17676,6 @@
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
 		<default>8</default>
-	</attribute>
-	<attribute>
-	        <id>PCIE_LANE_GROUP</id>
-	        <default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHB_NUM</id>
@@ -17741,16 +17819,16 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-	        <id>PCIE_LANE_GROUP</id>
-	        <default>0</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
@@ -17924,6 +18002,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
 		<default></default>
 	</attribute>
@@ -17935,10 +18017,6 @@
 		<id>PCIE_NUM_LANES</id>
 		<default>4</default>
 	</attribute>
-        <attribute>
-                <id>PCIE_LANE_GROUP</id>
-                <default>0</default>
-        </attribute>
 	<attribute>
 		<id>PHB_NUM</id>
 		<default>3</default>
@@ -17967,10 +18045,6 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>PCI</default>
-	</attribute>
-	<attribute>
-	        <id>PCIE_LANE_GROUP</id>
-	        <default>0</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -18085,6 +18159,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
 		<default></default>
 	</attribute>
@@ -18095,10 +18173,6 @@
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
 		<default>4</default>
-	</attribute>
-	<attribute>
-	        <id>PCIE_LANE_GROUP</id>
-	        <default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHB_NUM</id>
@@ -18242,6 +18316,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>PCIE_LANE_GROUP</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_LANE_MASK</id>
 		<default></default>
 	</attribute>
@@ -18254,16 +18332,8 @@
 		<default>8</default>
 	</attribute>
 	<attribute>
-	        <id>PCIE_LANE_GROUP</id>
-	        <default>0</default>
-	</attribute>
-	<attribute>
 		<id>PHB_NUM</id>
 		<default>5</default>
-	</attribute>
-	<attribute>
-	        <id>PCIE_LANE_GROUP</id>
-	        <default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -27924,7 +27994,7 @@
 	</attribute>
 	<attribute>
 		<id>FABRIC_CHIP_ID</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FABRIC_GROUP_ID</id>
@@ -76138,10 +76208,6 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -76168,16 +76234,8 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
@@ -76191,19 +76249,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -76430,10 +76475,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -76449,10 +76490,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -76543,16 +76580,8 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -76799,10 +76828,6 @@
 	<attribute>
 		<id>FSI_PORT</id>
 		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -77543,16 +77568,8 @@
 		<default>0x64</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -77622,16 +77639,8 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -83243,10 +83252,6 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -83263,29 +83268,8 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -87807,10 +87791,6 @@
 		<default>LOGICAL_ASSOCIATION</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -87823,29 +87803,8 @@
 		<default>OUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
