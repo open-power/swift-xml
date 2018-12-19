@@ -16375,6 +16375,10 @@
 		<id>MRW_TYPE</id>
 		<default>PCI_CONFIGS</default>
 	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
 </targetInstance>
 <targetInstance>
 	<id>phb0_x16</id>
@@ -16498,6 +16502,10 @@
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
 		<default>16</default>
+	</attribute>
+	<attribute>
+	        <id>PCIE_LANE_GROUP</id>
+	        <default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHB_NUM</id>
@@ -16718,6 +16726,10 @@
 		<id>MRW_TYPE</id>
 		<default>PCI_CONFIGS</default>
 	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
 </targetInstance>
 <targetInstance>
 	<id>phb1_x8</id>
@@ -16841,6 +16853,10 @@
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
 		<default>8</default>
+	</attribute>
+	<attribute>
+	        <id>PCIE_LANE_GROUP</id>
+	        <default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHB_NUM</id>
@@ -16994,6 +17010,10 @@
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
 		<default>8</default>
+	</attribute>
+	<attribute>
+	        <id>PCIE_LANE_GROUP</id>
+	        <default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHB_NUM</id>
@@ -17214,6 +17234,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>PCI_CONFIGS</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -17443,6 +17467,10 @@
 		<id>MRW_TYPE</id>
 		<default>PCI_CONFIGS</default>
 	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
 </targetInstance>
 <targetInstance>
 	<id>phb3_x8</id>
@@ -17566,6 +17594,10 @@
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
 		<default>8</default>
+	</attribute>
+	<attribute>
+	        <id>PCIE_LANE_GROUP</id>
+	        <default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHB_NUM</id>
@@ -17717,6 +17749,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+	        <id>PCIE_LANE_GROUP</id>
+	        <default>0</default>
+	</attribute>
+	<attribute>
 		<id>PCIE_NUM_LANES</id>
 		<default>8</default>
 	</attribute>
@@ -17770,6 +17806,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>PCI_CONFIGS</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -17895,6 +17935,10 @@
 		<id>PCIE_NUM_LANES</id>
 		<default>4</default>
 	</attribute>
+        <attribute>
+                <id>PCIE_LANE_GROUP</id>
+                <default>0</default>
+        </attribute>
 	<attribute>
 		<id>PHB_NUM</id>
 		<default>3</default>
@@ -17923,6 +17967,10 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>PCI</default>
+	</attribute>
+	<attribute>
+	        <id>PCIE_LANE_GROUP</id>
+	        <default>0</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -18047,6 +18095,10 @@
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
 		<default>4</default>
+	</attribute>
+	<attribute>
+	        <id>PCIE_LANE_GROUP</id>
+	        <default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHB_NUM</id>
@@ -18202,8 +18254,16 @@
 		<default>8</default>
 	</attribute>
 	<attribute>
+	        <id>PCIE_LANE_GROUP</id>
+	        <default>0</default>
+	</attribute>
+	<attribute>
 		<id>PHB_NUM</id>
 		<default>5</default>
+	</attribute>
+	<attribute>
+	        <id>PCIE_LANE_GROUP</id>
+	        <default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
