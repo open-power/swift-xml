@@ -6410,9 +6410,99 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-0/dimm-0/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-0/dimm-0/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-0/dimm-0/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>null</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-0/dimm-0/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-0/dimm-0/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-0/dimm-0/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-0/dimm-0/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6439,9 +6529,113 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-1/dimm-1/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-1/dimm-1/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-1/dimm-1/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-1/dimm-1/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-1/dimm-1/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-1/dimm-1/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-1/dimm-1/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-1/dimm-1/spd</id>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-1/dimm-1/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6468,9 +6662,106 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-10/dimm-10/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-10/dimm-10/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-10/dimm-10/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-10/dimm-10/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-10/dimm-10/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-10/dimm-10/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-10/dimm-10/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x92</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-10/dimm-10/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6497,9 +6788,106 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-11/dimm-11/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-11/dimm-11/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-11/dimm-11/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-11/dimm-11/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-11/dimm-11/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-11/dimm-11/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-11/dimm-11/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x92</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-11/dimm-11/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6526,9 +6914,106 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-12/dimm-12/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-12/dimm-12/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-12/dimm-12/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-12/dimm-12/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-12/dimm-12/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-12/dimm-12/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>null</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-12/dimm-12/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-12/dimm-12/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6555,9 +7040,99 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-13/dimm-13/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-13/dimm-13/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-13/dimm-13/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-13/dimm-13/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-13/dimm-13/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-13/dimm-13/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x92</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-13/dimm-13/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6584,9 +7159,99 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-14/dimm-14/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-14/dimm-14/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-14/dimm-14/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-14/dimm-14/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-14/dimm-14/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-14/dimm-14/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-14/dimm-14/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6613,9 +7278,99 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-15/dimm-15/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>null</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-15/dimm-15/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-15/dimm-15/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-15/dimm-15/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-15/dimm-15/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-15/dimm-15/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-15/dimm-15/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6642,9 +7397,99 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-16/dimm-16/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>null</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-16/dimm-16/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-16/dimm-16/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-16/dimm-16/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-16/dimm-16/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-16/dimm-16/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-16/dimm-16/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6671,9 +7516,99 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-17/dimm-17/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-17/dimm-17/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-17/dimm-17/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-17/dimm-17/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-17/dimm-17/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-17/dimm-17/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-17/dimm-17/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6700,9 +7635,99 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-18/dimm-18/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-18/dimm-18/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-18/dimm-18/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>null</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-18/dimm-18/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-18/dimm-18/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-18/dimm-18/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-18/dimm-18/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>null</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6729,9 +7754,106 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-19/dimm-19/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-19/dimm-19/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-19/dimm-19/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-19/dimm-19/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-19/dimm-19/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-19/dimm-19/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-19/dimm-19/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-19/dimm-19/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6758,9 +7880,113 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-2/dimm-2/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-2/dimm-2/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>null</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-2/dimm-2/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-2/dimm-2/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-2/dimm-2/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-2/dimm-2/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-2/dimm-2/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>null</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-2/dimm-2/spd</id>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-2/dimm-2/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6787,9 +8013,99 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-20/dimm-20/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-20/dimm-20/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-20/dimm-20/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-20/dimm-20/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-20/dimm-20/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-20/dimm-20/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-20/dimm-20/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6816,9 +8132,106 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-21/dimm-21/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-21/dimm-21/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-21/dimm-21/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>null</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-21/dimm-21/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-21/dimm-21/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-21/dimm-21/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-21/dimm-21/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-21/dimm-21/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6845,9 +8258,113 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-22/dimm-22/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-22/dimm-22/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-22/dimm-22/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-22/dimm-22/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-22/dimm-22/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-22/dimm-22/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-22/dimm-22/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-22/dimm-22/spd</id>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-22/dimm-22/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6874,9 +8391,113 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-23/dimm-23/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-23/dimm-23/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-23/dimm-23/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-23/dimm-23/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-23/dimm-23/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-23/dimm-23/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-23/dimm-23/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-23/dimm-23/spd</id>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-23/dimm-23/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6903,9 +8524,106 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-3/dimm-3/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-3/dimm-3/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-3/dimm-3/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-3/dimm-3/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-3/dimm-3/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-3/dimm-3/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-3/dimm-3/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-3/dimm-3/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6932,9 +8650,113 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-4/dimm-4/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-4/dimm-4/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-4/dimm-4/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-4/dimm-4/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-4/dimm-4/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-4/dimm-4/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-4/dimm-4/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-4/dimm-4/spd</id>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-4/dimm-4/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6961,9 +8783,113 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-5/dimm-5/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-5/dimm-5/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-5/dimm-5/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-5/dimm-5/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-5/dimm-5/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-5/dimm-5/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-5/dimm-5/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-5/dimm-5/spd</id>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-5/dimm-5/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6990,9 +8916,106 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-6/dimm-6/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-6/dimm-6/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-6/dimm-6/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-6/dimm-6/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-6/dimm-6/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-6/dimm-6/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-6/dimm-6/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-6/dimm-6/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -7019,9 +9042,106 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-7/dimm-7/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-7/dimm-7/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-7/dimm-7/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-7/dimm-7/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-7/dimm-7/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-7/dimm-7/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-7/dimm-7/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-7/dimm-7/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -7048,9 +9168,106 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-8/dimm-8/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-8/dimm-8/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-8/dimm-8/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-8/dimm-8/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-8/dimm-8/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-8/dimm-8/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>null</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-8/dimm-8/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-8/dimm-8/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -7077,9 +9294,106 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-9/dimm-9/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-9/dimm-9/ocmb/i2c-ocmb</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x40</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-9/dimm-9/ocmb/i2c-ts0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x30</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-9/dimm-9/ocmb/i2c-ts1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>null</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x32</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/dimmconn-9/dimm-9/ocmb/omi</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-9/dimm-9/pmic0/i2c-pmic0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0x90</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-9/dimm-9/pmic1/i2c-pmic1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xC0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/dimmconn-9/dimm-9/spd/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -29521,6 +31835,8 @@
 	<instance_name>dimm</instance_name>
 	<position>0</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -29681,6 +31997,9 @@
 	<instance_name>ocmb</instance_name>
 	<position>-1</position>
 	<child_id>omi</child_id>
+	<child_id>i2c-ocmb</child_id>
+	<child_id>i2c-ts0</child_id>
+	<child_id>i2c-ts1</child_id>
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
@@ -29788,6 +32107,422 @@
 	<attribute>
 		<id>TYPE</id>
 		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-ocmb</id>
+	<type>unit-i2c-slave</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-ocmb</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
+		<default>0x40</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VPD_SIZE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-ts0</id>
+	<type>unit-i2c-slave</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-ts0</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
+		<default>0x30</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VPD_SIZE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-ts1</id>
+	<type>unit-i2c-slave</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-ts1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
+		<default>0x32</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VPD_SIZE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>pmic0</id>
+	<type>chip-vreg-generic</type>
+	<is_root>false</is_root>
+	<instance_name>pmic0</instance_name>
+	<position>-1</position>
+	<child_id>i2c-pmic0</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>VOLTAGE_REGULATOR</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-pmic0</id>
+	<type>unit-i2c-slave</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-pmic0</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
+		<default>0x90</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VPD_SIZE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>pmic1</id>
+	<type>chip-vreg-generic</type>
+	<is_root>false</is_root>
+	<instance_name>pmic1</instance_name>
+	<position>-1</position>
+	<child_id>i2c-pmic1</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>VOLTAGE_REGULATOR</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-pmic1</id>
+	<type>unit-i2c-slave</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-pmic1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
+		<default>0xC0</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VPD_SIZE</id>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -30046,6 +32781,8 @@
 	<instance_name>dimm</instance_name>
 	<position>1</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -30246,6 +32983,8 @@
 	<instance_name>dimm</instance_name>
 	<position>2</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -30446,6 +33185,8 @@
 	<instance_name>dimm</instance_name>
 	<position>3</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -30646,6 +33387,8 @@
 	<instance_name>dimm</instance_name>
 	<position>4</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -30846,6 +33589,8 @@
 	<instance_name>dimm</instance_name>
 	<position>5</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -31046,6 +33791,8 @@
 	<instance_name>dimm</instance_name>
 	<position>6</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -31246,6 +33993,8 @@
 	<instance_name>dimm</instance_name>
 	<position>7</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -31446,6 +34195,8 @@
 	<instance_name>dimm</instance_name>
 	<position>8</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -31646,6 +34397,8 @@
 	<instance_name>dimm</instance_name>
 	<position>9</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -31846,6 +34599,8 @@
 	<instance_name>dimm</instance_name>
 	<position>10</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -32046,6 +34801,8 @@
 	<instance_name>dimm</instance_name>
 	<position>11</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -32246,6 +35003,8 @@
 	<instance_name>dimm</instance_name>
 	<position>12</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -32446,6 +35205,8 @@
 	<instance_name>dimm</instance_name>
 	<position>13</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -32646,6 +35407,8 @@
 	<instance_name>dimm</instance_name>
 	<position>14</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -32846,6 +35609,8 @@
 	<instance_name>dimm</instance_name>
 	<position>15</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -33046,6 +35811,8 @@
 	<instance_name>dimm</instance_name>
 	<position>16</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -33246,6 +36013,8 @@
 	<instance_name>dimm</instance_name>
 	<position>17</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -33446,6 +36215,8 @@
 	<instance_name>dimm</instance_name>
 	<position>18</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -33646,6 +36417,8 @@
 	<instance_name>dimm</instance_name>
 	<position>19</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -33846,6 +36619,8 @@
 	<instance_name>dimm</instance_name>
 	<position>20</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -34046,6 +36821,8 @@
 	<instance_name>dimm</instance_name>
 	<position>21</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -34246,6 +37023,8 @@
 	<instance_name>dimm</instance_name>
 	<position>22</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -34446,6 +37225,8 @@
 	<instance_name>dimm</instance_name>
 	<position>23</position>
 	<child_id>ocmb</child_id>
+	<child_id>pmic0</child_id>
+	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
@@ -89257,6 +92038,10 @@
 	<child_id>PCA9553.gpio-2</child_id>
 	<child_id>PCA9553.gpio-3</child_id>
 	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
+	<attribute>
 		<id>CCIN</id>
 		<default></default>
 	</attribute>
@@ -89294,7 +92079,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>955X</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -89324,16 +92109,8 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -89381,10 +92158,6 @@
 		<default>GPIO_EXP</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -89400,10 +92173,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -89452,10 +92221,6 @@
 		<default>GPIO_EXP</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -89471,10 +92236,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -89523,10 +92284,6 @@
 		<default>GPIO_EXP</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -89542,10 +92299,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -89594,10 +92347,6 @@
 		<default>GPIO_EXP</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -89613,10 +92362,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -89639,6 +92384,10 @@
 	<child_id>PCA9553.gpio-1</child_id>
 	<child_id>PCA9553.gpio-2</child_id>
 	<child_id>PCA9553.gpio-3</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -89677,7 +92426,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>955X</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -89691,6 +92440,10 @@
 	<child_id>PCA9553.gpio-1</child_id>
 	<child_id>PCA9553.gpio-2</child_id>
 	<child_id>PCA9553.gpio-3</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -89729,7 +92482,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>955X</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -89743,6 +92496,10 @@
 	<child_id>PCA9553.gpio-1</child_id>
 	<child_id>PCA9553.gpio-2</child_id>
 	<child_id>PCA9553.gpio-3</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -89781,7 +92538,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>955X</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -89795,6 +92552,10 @@
 	<child_id>PCA9553.gpio-1</child_id>
 	<child_id>PCA9553.gpio-2</child_id>
 	<child_id>PCA9553.gpio-3</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -89833,7 +92594,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>955X</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -89847,6 +92608,10 @@
 	<child_id>PCA9553.gpio-1</child_id>
 	<child_id>PCA9553.gpio-2</child_id>
 	<child_id>PCA9553.gpio-3</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -89885,7 +92650,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>955X</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -89899,6 +92664,10 @@
 	<child_id>PCA9553.gpio-1</child_id>
 	<child_id>PCA9553.gpio-2</child_id>
 	<child_id>PCA9553.gpio-3</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -89937,7 +92706,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>955X</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -89951,6 +92720,10 @@
 	<child_id>PCA9553.gpio-1</child_id>
 	<child_id>PCA9553.gpio-2</child_id>
 	<child_id>PCA9553.gpio-3</child_id>
+	<attribute>
+		<id>BMC_DT_COMPATIBLE</id>
+		<default>nxp,pca955x</default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -89989,7 +92762,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>955X</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -90046,7 +92819,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>9551</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -90103,7 +92876,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>9551</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
