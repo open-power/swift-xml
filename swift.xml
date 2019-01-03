@@ -4930,6 +4930,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/Bohm-0/daughtercard-0/bmc-0/chip-bmc-ast2500.pin_G21_espi_lpc_gpioac0ac7/chip-bmc-ast2500.pingroup_lpc/chip-bmc-ast2500.LPC</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/Bohm-0/daughtercard-0/bmc-0/chip-bmc-ast2500.pin_L17_pcie/chip-bmc-ast2500.pingroup_pcie/chip-bmc-ast2500.pcie</id>
 	<property>
 	<id>DIRECTION</id>
@@ -11249,6 +11256,13 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/i2c-master-tpm</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/lpc-master</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -18781,6 +18795,19 @@
 		<bus_attribute>
 			<id>I2C_TYPE</id>
 		<default>SEEPROM</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/Hopper-0/p9_axone/lpc-master => Bohm-0/daughtercard-0/bmc-0/chip-bmc-ast2500.pin_G21_espi_lpc_gpioac0ac7/chip-bmc-ast2500.pingroup_lpc/chip-bmc-ast2500.LPC</bus_id>
+		<bus_type>LPC</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/Hopper-0/p9_axone/</source_path>
+		<source_target>lpc-master</source_target>
+		<dest_path>Bohm-0/daughtercard-0/bmc-0/chip-bmc-ast2500.pin_G21_espi_lpc_gpioac0ac7/chip-bmc-ast2500.pingroup_lpc/</dest_path>
+		<dest_target>chip-bmc-ast2500.LPC</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
