@@ -13303,15 +13303,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13336,15 +13336,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13369,15 +13369,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13402,15 +13402,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13435,15 +13435,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13468,15 +13468,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13501,15 +13501,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13534,15 +13534,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13567,15 +13567,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13600,15 +13600,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13633,15 +13633,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13666,15 +13666,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13699,15 +13699,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13732,15 +13732,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13765,15 +13765,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13798,15 +13798,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13831,15 +13831,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13864,15 +13864,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13897,15 +13897,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13930,15 +13930,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13963,15 +13963,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -13996,15 +13996,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14029,15 +14029,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14062,15 +14062,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14095,15 +14095,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14128,15 +14128,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14161,15 +14161,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14194,15 +14194,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14227,15 +14227,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14260,15 +14260,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14293,15 +14293,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14326,15 +14326,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14359,15 +14359,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14392,15 +14392,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14425,15 +14425,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14458,15 +14458,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14491,15 +14491,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14524,15 +14524,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14557,15 +14557,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14590,15 +14590,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14623,15 +14623,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14656,15 +14656,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14689,15 +14689,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14722,15 +14722,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14755,15 +14755,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14788,15 +14788,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14821,15 +14821,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14854,15 +14854,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14887,15 +14887,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14920,15 +14920,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14953,15 +14953,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -14986,15 +14986,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15019,15 +15019,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15052,15 +15052,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15085,15 +15085,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15118,15 +15118,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15151,15 +15151,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15184,15 +15184,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15217,15 +15217,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15250,15 +15250,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15283,15 +15283,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15316,15 +15316,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15349,15 +15349,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15382,15 +15382,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15415,15 +15415,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15448,15 +15448,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15481,15 +15481,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15514,15 +15514,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15547,15 +15547,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15580,15 +15580,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15613,15 +15613,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15646,15 +15646,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15679,15 +15679,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15712,15 +15712,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15745,15 +15745,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15778,15 +15778,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15811,15 +15811,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15844,15 +15844,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15877,15 +15877,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15910,15 +15910,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15943,15 +15943,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15976,15 +15976,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16009,15 +16009,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16042,15 +16042,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16075,15 +16075,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16108,15 +16108,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16141,15 +16141,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16174,15 +16174,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16207,15 +16207,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16240,15 +16240,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16273,15 +16273,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16306,15 +16306,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16339,15 +16339,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16372,15 +16372,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16405,15 +16405,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16438,15 +16438,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16471,15 +16471,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16504,15 +16504,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16537,15 +16537,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16570,15 +16570,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16603,15 +16603,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16636,15 +16636,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16669,15 +16669,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16702,15 +16702,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16735,15 +16735,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16768,15 +16768,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16801,15 +16801,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16834,15 +16834,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16867,15 +16867,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16900,15 +16900,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16933,15 +16933,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16966,15 +16966,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -16999,15 +16999,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17032,15 +17032,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17065,15 +17065,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17098,15 +17098,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17131,15 +17131,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17164,15 +17164,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17197,15 +17197,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17230,15 +17230,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17263,15 +17263,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17296,15 +17296,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17329,15 +17329,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17362,15 +17362,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17395,15 +17395,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17428,15 +17428,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17461,15 +17461,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17494,15 +17494,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17527,15 +17527,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17560,15 +17560,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17593,15 +17593,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17626,15 +17626,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17659,15 +17659,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17692,15 +17692,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17725,15 +17725,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17758,15 +17758,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17791,15 +17791,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17824,15 +17824,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17857,15 +17857,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17890,15 +17890,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17923,15 +17923,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17956,15 +17956,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -17989,15 +17989,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18022,15 +18022,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18055,15 +18055,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18088,15 +18088,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18121,15 +18121,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18154,15 +18154,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18187,15 +18187,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>NVLINK</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>NVLINK</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18220,15 +18220,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>9553</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18253,15 +18253,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>NVLINK</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>NVLINK</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18286,15 +18286,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>9553</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18319,15 +18319,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>9553</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18352,15 +18352,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>9551</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18385,15 +18385,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>9551</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18418,15 +18418,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>WINDOW_OPEN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>9551</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18451,48 +18451,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>TPM</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>proc_socket-0/Hopper-0/p9_axone/i2c-master-tpm => Bates-3/daughtercard-3/PCA9551-0/PCA9551.i2c-0</bus_id>
-		<bus_type>I2C</bus_type>
-		<cable>no</cable>
-		<source_path>proc_socket-0/Hopper-0/p9_axone/</source_path>
-		<source_target>i2c-master-tpm</source_target>
-		<dest_path>Bates-3/daughtercard-3/PCA9551-0/</dest_path>
-		<dest_target>PCA9551.i2c-0</dest_target>
-		<bus_attribute>
-			<id>BUS_WIDTH</id>
-		<default>2</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default></default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_PURPOSE</id>
-		<default></default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_SPEED</id>
-		<default></default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_TYPE</id>
-		<default></default>
+		<default>NUVOTON_TPM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18517,15 +18484,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>9553</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18550,15 +18517,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>NVLINK</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>NVLINK</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18583,15 +18550,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>9553</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18616,15 +18583,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>NVLINK</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>NVLINK</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18649,15 +18616,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>9553</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18682,15 +18649,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>9553</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18715,15 +18682,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>9553</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -18748,15 +18715,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>PROC_MODULE_VPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -99128,7 +99095,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>955X</default>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -99475,7 +99442,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>955X</default>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -99531,7 +99498,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>955X</default>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -99587,7 +99554,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>955X</default>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -99643,7 +99610,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>955X</default>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -99699,7 +99666,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>955X</default>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -99755,7 +99722,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>955X</default>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -99811,7 +99778,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>955X</default>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -99868,7 +99835,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>9551</default>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -99925,7 +99892,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>9551</default>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
