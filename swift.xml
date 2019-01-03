@@ -11206,6 +11206,48 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/i2c-master-proc-promb0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/i2c-master-proc-promb1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/i2c-master-prom0-mvpd-primary</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/i2c-master-prom1-sbe-primary</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/i2c-master-prom2-mvpd-backup</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/i2c-master-prom3-sbe-backup</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/i2c-master-tpm</id>
 	<property>
 	<id>DIRECTION</id>
@@ -11487,6 +11529,21 @@
 	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PBAX_GROUPID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 	<property>
@@ -12960,7 +13017,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_NAME</id>
-		<default></default>
+		<default>SWIFT</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_RESCLK_STEP_DELAY</id>
@@ -13062,15 +13119,15 @@
 	<attribute>
 		<id>EEPROM_VPD_PRIMARY_INFO</id>
 		<default>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddr</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-				<field><id>maxMemorySizeKB</id><value></value></field>
-				<field><id>chipCount</id><value></value></field>
-				<field><id>writePageSize</id><value></value></field>
-				<field><id>writeCycleTime</id><value></value></field>
+				<field><id>i2cMasterPath</id><value>physical:sys-0/Swift-0/proc-0</value></field>
+				<field><id>port</id><value>0</value></field>
+				<field><id>devAddr</id><value>0xA0</value></field>
+				<field><id>engine</id><value>2</value></field>
+				<field><id>byteAddrOffset</id><value>0x02</value></field>
+				<field><id>maxMemorySizeKB</id><value>0x40</value></field>
+				<field><id>chipCount</id><value>0x01</value></field>
+				<field><id>writePageSize</id><value>32</value></field>
+				<field><id>writeCycleTime</id><value>20</value></field>
 				<field><id>i2cMuxBusSelector</id><value></value></field>
 				<field><id>i2cMuxPath</id><value></value></field>
 		</default>
@@ -13200,7 +13257,7 @@
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -18715,7 +18772,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default>PROC_MODULE_VPD</default>
+		<default>PLANAR_VPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
@@ -20302,7 +20359,7 @@
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -20319,8 +20376,8 @@
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
 		<default>
-				<field><id>supportsFsiScom</id><value></value></field>
-				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsFsiScom</id><value>0x1</value></field>
+				<field><id>supportsXscom</id><value>0x1</value></field>
 				<field><id>supportsInbandScom</id><value></value></field>
 				<field><id>reserved</id><value></value></field>
 		</default>
@@ -20604,15 +20661,15 @@
 	<attribute>
 		<id>EEPROM_SBE_BACKUP_INFO</id>
 		<default>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddr</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-				<field><id>maxMemorySizeKB</id><value></value></field>
-				<field><id>chipCount</id><value></value></field>
-				<field><id>writePageSize</id><value></value></field>
-				<field><id>writeCycleTime</id><value></value></field>
+				<field><id>i2cMasterPath</id><value>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/i2c-master-prom3-sbe-backup/</value></field>
+				<field><id>port</id><value>3</value></field>
+				<field><id>devAddr</id><value>0xA8</value></field>
+				<field><id>engine</id><value>1</value></field>
+				<field><id>byteAddrOffset</id><value>0x02</value></field>
+				<field><id>maxMemorySizeKB</id><value>0x100</value></field>
+				<field><id>chipCount</id><value>0x04</value></field>
+				<field><id>writePageSize</id><value>0x80</value></field>
+				<field><id>writeCycleTime</id><value>0x0A</value></field>
 				<field><id>i2cMuxBusSelector</id><value></value></field>
 				<field><id>i2cMuxPath</id><value></value></field>
 		</default>
@@ -20620,15 +20677,15 @@
 	<attribute>
 		<id>EEPROM_SBE_PRIMARY_INFO</id>
 		<default>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddr</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-				<field><id>maxMemorySizeKB</id><value></value></field>
-				<field><id>chipCount</id><value></value></field>
-				<field><id>writePageSize</id><value></value></field>
-				<field><id>writeCycleTime</id><value></value></field>
+				<field><id>i2cMasterPath</id><value>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/i2c-master-prom1-sbe-primary/</value></field>
+				<field><id>port</id><value>1</value></field>
+				<field><id>devAddr</id><value>0xA8</value></field>
+				<field><id>engine</id><value>1</value></field>
+				<field><id>byteAddrOffset</id><value>0x02</value></field>
+				<field><id>maxMemorySizeKB</id><value>0x100</value></field>
+				<field><id>chipCount</id><value>0x04</value></field>
+				<field><id>writePageSize</id><value>0x80</value></field>
+				<field><id>writeCycleTime</id><value>0x0A</value></field>
 				<field><id>i2cMuxBusSelector</id><value></value></field>
 				<field><id>i2cMuxPath</id><value></value></field>
 		</default>
@@ -20636,15 +20693,15 @@
 	<attribute>
 		<id>EEPROM_VPD_BACKUP_INFO</id>
 		<default>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddr</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-				<field><id>maxMemorySizeKB</id><value></value></field>
-				<field><id>chipCount</id><value></value></field>
-				<field><id>writePageSize</id><value></value></field>
-				<field><id>writeCycleTime</id><value></value></field>
+				<field><id>i2cMasterPath</id><value>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/i2c-master-prom2-mvpd-backup/</value></field>
+				<field><id>port</id><value>2</value></field>
+				<field><id>devAddr</id><value>0xA0</value></field>
+				<field><id>engine</id><value>1</value></field>
+				<field><id>byteAddrOffset</id><value>0x02</value></field>
+				<field><id>maxMemorySizeKB</id><value>0x80</value></field>
+				<field><id>chipCount</id><value>0x02</value></field>
+				<field><id>writePageSize</id><value>0x80</value></field>
+				<field><id>writeCycleTime</id><value>0x0A</value></field>
 				<field><id>i2cMuxBusSelector</id><value></value></field>
 				<field><id>i2cMuxPath</id><value></value></field>
 		</default>
@@ -20652,15 +20709,15 @@
 	<attribute>
 		<id>EEPROM_VPD_PRIMARY_INFO</id>
 		<default>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddr</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-				<field><id>maxMemorySizeKB</id><value></value></field>
-				<field><id>chipCount</id><value></value></field>
-				<field><id>writePageSize</id><value></value></field>
-				<field><id>writeCycleTime</id><value></value></field>
+				<field><id>i2cMasterPath</id><value>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/i2c-master-prom0-mvpd-primary/</value></field>
+				<field><id>port</id><value>0</value></field>
+				<field><id>devAddr</id><value>0xA0</value></field>
+				<field><id>engine</id><value>1</value></field>
+				<field><id>byteAddrOffset</id><value>0x02</value></field>
+				<field><id>maxMemorySizeKB</id><value>0x80</value></field>
+				<field><id>chipCount</id><value>0x02</value></field>
+				<field><id>writePageSize</id><value>0x80</value></field>
+				<field><id>writeCycleTime</id><value>0x0A</value></field>
 				<field><id>i2cMuxBusSelector</id><value></value></field>
 				<field><id>i2cMuxPath</id><value></value></field>
 		</default>
@@ -20706,11 +20763,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVICE_PURPOSE</id>
-		<default></default>
+		<default>PROC_MODULE_VPD</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVICE_TYPE</id>
-		<default></default>
+		<default>SEEPROM</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -20762,11 +20819,11 @@
 	</attribute>
 	<attribute>
 		<id>IMT_BAR_SIZE</id>
-		<default></default>
+		<default>0x0000000000000000</default>
 	</attribute>
 	<attribute>
 		<id>IMT_BASE_ADDR</id>
-		<default></default>
+		<default>0xFFFFFFFFFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>IO_FILTER_BYPASS</id>
@@ -20987,11 +21044,11 @@
 	</attribute>
 	<attribute>
 		<id>RNG_BAR_SIZE</id>
-		<default></default>
+		<default>0x000000000001000</default>
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>FRU</default>
 	</attribute>
 	<attribute>
 		<id>SS_FILTER_BYPASS</id>
@@ -38859,7 +38916,7 @@
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default>AXONE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
