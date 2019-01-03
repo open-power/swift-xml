@@ -19862,8 +19862,23 @@
 	<child_id>i2c-master-hotplug</child_id>
 	<child_id>i2c-master-tpm</child_id>
 	<child_id>i2c-master-dpss</child_id>
+	<child_id>i2c-master-pci</child_id>
+	<child_id>i2c-master-omi0123</child_id>
+	<child_id>i2c-master-omi4567</child_id>
 	<child_id>i2c-master-op0a</child_id>
 	<child_id>i2c-master-op0b</child_id>
+	<child_id>i2c-master-op1a</child_id>
+	<child_id>i2c-master-op1b</child_id>
+	<child_id>i2c-master-op2a</child_id>
+	<child_id>i2c-master-op2b</child_id>
+	<child_id>i2c-master-op3a</child_id>
+	<child_id>i2c-master-op3b</child_id>
+	<child_id>i2c-master-op5a</child_id>
+	<child_id>i2c-master-op5b</child_id>
+	<child_id>i2c-master-op6a</child_id>
+	<child_id>i2c-master-op6b</child_id>
+	<child_id>i2c-master-op7a</child_id>
+	<child_id>i2c-master-op7b</child_id>
 	<child_id>lpc-master</child_id>
 	<child_id>psi-slave</child_id>
 	<child_id>spi-master</child_id>
@@ -20207,6 +20222,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>MSS_INTERLEAVE_ENABLE</id>
+		<default>0x06</default>
 	</attribute>
 	<attribute>
 		<id>NEST_MEM_X_O_PCI_BYPASS</id>
@@ -35567,6 +35586,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -35588,11 +35611,28 @@
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -35601,6 +35641,10 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -35618,6 +35662,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -35639,11 +35687,28 @@
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -35652,6 +35717,10 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -35669,6 +35738,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -35693,8 +35766,25 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -35703,6 +35793,10 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -35720,6 +35814,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -35741,11 +35839,28 @@
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x03</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -35754,6 +35869,10 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -35771,6 +35890,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -35795,8 +35918,25 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -35805,6 +35945,10 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -35822,6 +35966,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -35846,8 +35994,25 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -35856,6 +36021,10 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -35873,6 +36042,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -35897,8 +36070,25 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -35907,6 +36097,10 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -35924,6 +36118,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -35948,8 +36146,25 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -35958,6 +36173,10 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -35975,6 +36194,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -35999,8 +36222,25 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -36009,6 +36249,10 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -36026,6 +36270,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -36050,8 +36298,25 @@
 		<default>0x02</default>
 	</attribute>
 	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -36060,6 +36325,10 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -36077,6 +36346,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -36094,15 +36367,32 @@
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
-		<default>0x01</default>
+		<default>0x02</default>
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -36111,6 +36401,10 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -36145,7 +36439,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
-		<default>0x01</default>
+		<default>0x02</default>
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
@@ -36156,12 +36450,25 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
 		<id>REG_BASE_ADDRESS</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -36196,15 +36503,24 @@
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
-		<default>0x01</default>
+		<default>0x02</default>
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -36213,6 +36529,10 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -36251,11 +36571,20 @@
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x0c</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -36264,6 +36593,238 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-master-pci</id>
+	<type>unit-i2c-master</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-master-pci</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONNECTION_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REG_BASE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REG_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-master-omi0123</id>
+	<type>unit-i2c-master</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-master-omi0123</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONNECTION_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x03</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REG_BASE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REG_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-master-omi4567</id>
+	<type>unit-i2c-master</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-master-omi4567</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONNECTION_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x03</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REG_BASE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REG_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -36281,6 +36842,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -36302,11 +36867,28 @@
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x04</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -36315,6 +36897,10 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -36332,6 +36918,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -36353,11 +36943,28 @@
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x02</default>
+		<default>0x05</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REG_BASE_ADDRESS</id>
@@ -36366,6 +36973,922 @@
 	<attribute>
 		<id>REG_OFFSET</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-master-op1a</id>
+	<type>unit-i2c-master</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-master-op1a</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONNECTION_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x06</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REG_BASE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REG_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-master-op1b</id>
+	<type>unit-i2c-master</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-master-op1b</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONNECTION_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x07</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REG_BASE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REG_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-master-op2a</id>
+	<type>unit-i2c-master</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-master-op2a</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONNECTION_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x08</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REG_BASE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REG_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-master-op2b</id>
+	<type>unit-i2c-master</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-master-op2b</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONNECTION_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x09</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REG_BASE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REG_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-master-op3a</id>
+	<type>unit-i2c-master</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-master-op3a</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONNECTION_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x0a</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REG_BASE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REG_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-master-op3b</id>
+	<type>unit-i2c-master</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-master-op3b</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONNECTION_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x0b</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REG_BASE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REG_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-master-op5a</id>
+	<type>unit-i2c-master</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-master-op5a</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONNECTION_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x0c</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REG_BASE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REG_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-master-op5b</id>
+	<type>unit-i2c-master</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-master-op5b</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONNECTION_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x0d</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REG_BASE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REG_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-master-op6a</id>
+	<type>unit-i2c-master</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-master-op6a</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONNECTION_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x0e</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REG_BASE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REG_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-master-op6b</id>
+	<type>unit-i2c-master</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-master-op6b</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONNECTION_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x0f</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REG_BASE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REG_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-master-op7a</id>
+	<type>unit-i2c-master</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-master-op7a</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONNECTION_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x10</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REG_BASE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REG_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>i2c-master-op7b</id>
+	<type>unit-i2c-master</type>
+	<is_root>false</is_root>
+	<instance_name>i2c-master-op7b</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>I2C_CONNECTION_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ENGINE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>I2C_PORT</id>
+		<default>0x11</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REG_BASE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REG_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
