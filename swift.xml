@@ -5491,7 +5491,7 @@
 	</property>
 	<property>
 	<id>FSI_LINK</id>
-	<value></value>
+	<value>0x0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -8843,7 +8843,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xC8</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10754,7 +10754,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xC0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12985,20 +12985,66 @@
 	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack1_x16/CP0-0</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack1_x16/CP1-1</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack1_x16/NVMe_D2-2</id>
 	<property>
 	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack1_x16/NVMe_D2-2/perst-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack1_x16/NVMe_D2-2/presence-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -13006,77 +13052,77 @@
 	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack1_x16/NVMe_D3-3</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack3_x16/GPU0-5</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack3_x16/GPU1-6</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack3_x16/NVMe_D4-4</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack3_x16/SATA-1</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack4_x16/GPU2-9</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack4_x16/GPU3-10</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack4_x16/NVMe_D5-7</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack4_x16/NVMe_D6-8</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack6_x4/ENET-0</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/microsemi-0/pm40052-0/stack6_x4/USB-0</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -13944,7 +13990,7 @@
 	</property>
 	<property>
 	<id>FSI_LINK</id>
-	<value></value>
+	<value>0x1</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14717,7 +14763,7 @@
 	</property>
 	<property>
 	<id>FSI_LINK</id>
-	<value></value>
+	<value>0x1</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -93213,6 +93259,7 @@
 	<is_root>false</is_root>
 	<instance_name>stack1_x16</instance_name>
 	<position>-1</position>
+	<child_id>CP0-0</child_id>
 	<child_id>CP1-1</child_id>
 	<child_id>NVMe_D2-2</child_id>
 	<child_id>NVMe_D3-3</child_id>
@@ -93235,6 +93282,53 @@
 	<attribute>
 		<id>TYPE</id>
 		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>CP0-0</id>
+	<type>chip-x4_port</type>
+	<is_root>false</is_root>
+	<instance_name>CP0</instance_name>
+	<position>0</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>PCIE</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PORT</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>STATION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SWITCH_MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>WIDTH</id>
+		<default>4</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -108643,24 +108737,8 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>I2C_ENGINE</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>I2C_PORT</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -108708,10 +108786,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -108727,10 +108801,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -108779,10 +108849,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -108798,10 +108864,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -108850,10 +108912,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -108869,10 +108927,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -108921,10 +108975,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -108940,10 +108990,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -108992,10 +109038,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -109011,10 +109053,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -109063,10 +109101,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -109082,10 +109116,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -109134,10 +109164,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -109153,10 +109179,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -109205,10 +109227,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -109224,10 +109242,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -109276,10 +109290,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -109295,10 +109305,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -109347,10 +109353,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -109366,10 +109368,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -109418,10 +109416,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -109437,10 +109431,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -109489,10 +109479,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -109508,10 +109494,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -109560,10 +109542,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -109579,10 +109557,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -109631,10 +109605,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -109650,10 +109620,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -109702,10 +109668,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -109721,10 +109683,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -109773,10 +109731,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -109792,10 +109746,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -109844,10 +109794,6 @@
 		<default>GENERIC_INPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -109863,10 +109809,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
