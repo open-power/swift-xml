@@ -14198,14 +14198,14 @@
 	</property>
 	<property>
 	<id>FSI_LINK</id>
-	<value>0x1</value>
+	<value>1</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/Swift-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/fsim-1</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>null</value>
 	</property>
 	<property>
 	<id>FSI_LINK</id>
@@ -14971,7 +14971,7 @@
 	</property>
 	<property>
 	<id>FSI_LINK</id>
-	<value>0x1</value>
+	<value>1</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -39412,7 +39412,7 @@
 	</attribute>
 	<attribute>
 		<id>CMFSI</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -39420,7 +39420,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_PORT</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -39476,7 +39476,7 @@
 	</attribute>
 	<attribute>
 		<id>CMFSI</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -39484,7 +39484,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_PORT</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -40692,7 +40692,7 @@
 	</attribute>
 	<attribute>
 		<id>CMFSI</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -40700,7 +40700,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_ENGINE</id>
-		<default>0x0D</default>
+		<default>13</default>
 	</attribute>
 	<attribute>
 		<id>FSI_LINK</id>
@@ -40764,7 +40764,7 @@
 	</attribute>
 	<attribute>
 		<id>CMFSI</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -40772,7 +40772,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_ENGINE</id>
-		<default>0x0D</default>
+		<default>13</default>
 	</attribute>
 	<attribute>
 		<id>FSI_LINK</id>
@@ -40836,7 +40836,7 @@
 	</attribute>
 	<attribute>
 		<id>CMFSI</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -40844,7 +40844,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_ENGINE</id>
-		<default>0x0D</default>
+		<default>13</default>
 	</attribute>
 	<attribute>
 		<id>FSI_LINK</id>
