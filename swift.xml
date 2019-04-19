@@ -4821,7 +4821,7 @@
 	<id>/sys-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>3</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15793,7 +15793,7 @@
 	</attribute>
 	<attribute>
 		<id>ASCII_VPD_LX_KEYWORD</id>
-		<default></default>
+		<default>0x3100070100300FF1</default>
 	</attribute>
 	<attribute>
 		<id>ASYNC_NEST_FREQ_MHZ</id>
@@ -15813,7 +15813,7 @@
 	</attribute>
 	<attribute>
 		<id>BMC_FRU_ID</id>
-		<default>0</default>
+		<default>26</default>
 	</attribute>
 	<attribute>
 		<id>BMC_MAX_ERROR_LOG_SIZE</id>
@@ -15905,7 +15905,7 @@
 	</attribute>
 	<attribute>
 		<id>DD1_SLOW_PCI_REF_CLOCK</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DMI_EREPAIR_THRESHOLD_FIELD</id>
@@ -15989,7 +15989,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PB_MHZ</id>
-		<default></default>
+		<default>2000</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_PB_MHZ_POUNDV_FALLBACK</id>
@@ -16082,11 +16082,11 @@
 	</attribute>
 	<attribute>
 		<id>MANUFACTURER</id>
-		<default></default>
+		<default>IBM</default>
 	</attribute>
 	<attribute>
 		<id>MAX_ALLOWED_DIMM_FREQ</id>
-		<default>2400,2400,2400,2400,2400</default>
+		<default>3200,3200,3200,3200,3200</default>
 	</attribute>
 	<attribute>
 		<id>MAX_CHIPLETS_PER_PROC</id>
@@ -16134,7 +16134,7 @@
 	</attribute>
 	<attribute>
 		<id>MISC_SYSTEM_COMPONENTS_MAX_POWER_WATTS</id>
-		<default></default>
+		<default>430</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_ABUS_MIN_EYE_HEIGHT</id>
@@ -16154,7 +16154,7 @@
 	</attribute>
 	<attribute>
 		<id>MNFG_FLAGS</id>
-		<default></default>
+		<default>0x0000000000000000</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_TH_CEN_L4_CACHE_CES</id>
@@ -16250,7 +16250,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_MEM_THROTTLE_DENOMINATOR</id>
-		<default></default>
+		<default>512</default>
 	</attribute>
 	<attribute>
 		<id>MRW_SAFEMODE_MEM_THROTTLE_NUMERATOR_PER_CHIP</id>
@@ -16346,7 +16346,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MAX_NUMBER_DIMMS_POSSIBLE_PER_VMEM_REGULATOR</id>
-		<default>0</default>
+		<default>12</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MCS_PREFETCH_RETRY_THRESHOLD</id>
@@ -16507,7 +16507,7 @@
 	<attribute>
 		<id>NUMERIC_POD_TYPE_TEST</id>
 		<default>
-				<field><id>fsiPath</id><value></value></field>
+				<field><id>fsiPath</id><value>physical:sys-0</value></field>
 				<field><id>className</id><value></value></field>
 				<field><id>uint8</id><value></value></field>
 				<field><id>uint16</id><value></value></field>
@@ -16533,31 +16533,31 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_ERROR_TEMP_DEG_C</id>
-		<default></default>
+		<default>74</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_READ_TIMEOUT_SEC</id>
-		<default></default>
+		<default>30</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_THROTTLE_TEMP_DEG_C</id>
-		<default></default>
+		<default>74</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_GPU_ERROR_TEMP_DEG_C</id>
-		<default></default>
+		<default>83</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_GPU_MEM_ERROR_TEMP_DEG_C</id>
-		<default></default>
+		<default>85</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_GPU_MEM_READ_TIMEOUT_SEC</id>
-		<default></default>
+		<default>30</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_GPU_READ_TIMEOUT_SEC</id>
-		<default></default>
+		<default>30</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MEMCTRL_ERROR_TEMP_DEG_C</id>
@@ -16573,31 +16573,31 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_MEM_UTILIZATION_POWER_CAP</id>
-		<default></default>
+		<default>25</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_MEM_UTILIZATION_THROTTLING</id>
-		<default></default>
+		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_POWER_CAP_WATTS</id>
-		<default></default>
+		<default>1700</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_BULK_POWER_LIMIT_WATTS</id>
-		<default></default>
+		<default>1700</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_MAX_MEM_POWER_WATTS</id>
-		<default></default>
+		<default>160</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
-		<default></default>
+		<default>2500</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_PLUS_ONE_MAX_MEM_POWER_WATTS</id>
-		<default></default>
+		<default>238</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PM_MODE</id>
@@ -16609,39 +16609,39 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_DVFS_TEMP_DEG_C</id>
-		<default></default>
+		<default>85</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_ERROR_TEMP_DEG_C</id>
-		<default></default>
+		<default>95</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_READ_TIMEOUT_SEC</id>
-		<default></default>
+		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_WEIGHT</id>
-		<default></default>
+		<default>10</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_QUAD_WEIGHT</id>
-		<default></default>
+		<default>10</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_REGULATOR_EFFICIENCY_FACTOR</id>
-		<default></default>
+		<default>0x55</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_SOFT_MIN_PCAP_WATTS</id>
-		<default></default>
+		<default>1700</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_TURBO_MODE_SUPPORTED</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_VRM_READ_TIMEOUT_SEC</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_VRM_VDD_DVFS_TEMP_DEG_C</id>
@@ -16665,7 +16665,7 @@
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_KIND</id>
-		<default></default>
+		<default>SAPPHIRE</default>
 	</attribute>
 	<attribute>
 		<id>PCIE-DEFAULT-HDDW-SLOT-COUNT</id>
@@ -16726,7 +16726,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_EPS_TABLE_TYPE</id>
-		<default></default>
+		<default>EPS_TYPE_LE</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_A_BUS_WIDTH</id>
@@ -16742,7 +16742,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_PUMP_MODE</id>
-		<default></default>
+		<default>MODE2</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_SMP_OPTICS_MODE</id>
@@ -16758,19 +16758,19 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_BAR_SIZE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_MMIO_BAR0_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_MMIO_BAR1_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_REGISTER_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_REFCLOCK_RCVR_TERM</id>
@@ -16882,7 +16882,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_FAMILY</id>
-		<default>ibm,p9</default>
+		<default>ibm,p9-openbmc</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_IVRM_DISABLE</id>
@@ -16922,7 +16922,7 @@
 	</attribute>
 	<attribute>
 		<id>TPM_REQUIRED</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -16938,11 +16938,11 @@
 	</attribute>
 	<attribute>
 		<id>WOF_ENABLE_FRATIO</id>
-		<default>0x00</default>
+		<default>FIXED</default>
 	</attribute>
 	<attribute>
 		<id>WOF_ENABLE_VRATIO</id>
-		<default>0x00</default>
+		<default>FIXED</default>
 	</attribute>
 	<attribute>
 		<id>WOF_POWER_LIMIT</id>
@@ -16954,7 +16954,7 @@
 	</attribute>
 	<attribute>
 		<id>WOF_VRATIO_SELECT</id>
-		<default>0x00</default>
+		<default>ACTIVE_CORES</default>
 	</attribute>
 	<attribute>
 		<id>X_EREPAIR_THRESHOLD_FIELD</id>
@@ -93496,10 +93496,6 @@
 		<default>OUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -93512,10 +93508,6 @@
 		<default>
 				<field><id>Value</id><value></value></field>
 		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -93627,6 +93619,7 @@
 	<child_id>stack1_x16</child_id>
 	<child_id>stack3_x16</child_id>
 	<child_id>stack4_x16</child_id>
+	<child_id>stack6_x4</child_id>
 	<attribute>
 		<id>CLASS</id>
 		<default></default>
@@ -95833,6 +95826,33 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>stack6_x4</id>
+	<type>chip-stack6_x4</type>
+	<is_root>false</is_root>
+	<instance_name>stack6_x4</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
