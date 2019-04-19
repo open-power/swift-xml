@@ -16977,7 +16977,7 @@
 	<id>node-0</id>
 	<type>enc-node-power9</type>
 	<is_root>false</is_root>
-	<instance_name>Swift</instance_name>
+	<instance_name>node</instance_name>
 	<position>0</position>
 	<child_id>Pallid-0</child_id>
 	<hidden_child_id>motherboard_fault_sensor</hidden_child_id>
