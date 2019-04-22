@@ -25465,15 +25465,15 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default></default>
+		<default>PLANAR_VPD</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>SEEPROM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
