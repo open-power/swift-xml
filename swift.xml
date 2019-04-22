@@ -14428,7 +14428,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>GPU</value>
+	<value>GPU3</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -14882,8 +14882,12 @@
 	<value>21</value>
 	</property>
 	<property>
+	<id>FRU_NAME</id>
+	<value>CPU0</value>
+	</property>
+	<property>
 	<id>IPMI_INSTANCE</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>PBAX_GROUPID</id>
@@ -16345,6 +16349,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/occ</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/occ/occ_active_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -16476,8 +16487,12 @@
 	<value>22</value>
 	</property>
 	<property>
+	<id>FRU_NAME</id>
+	<value>CPU1</value>
+	</property>
+	<property>
 	<id>IPMI_INSTANCE</id>
-	<value></value>
+	<value>1</value>
 	</property>
 	<property>
 	<id>PBAX_GROUPID</id>
@@ -17894,6 +17909,13 @@
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/occ</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>1</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -27673,6 +27695,18 @@
 		<default>CARD</default>
 	</attribute>
 	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -28054,6 +28088,10 @@
 	<attribute>
 		<id>FRU_ID</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FSI_OPTION_FLAGS</id>
@@ -31355,6 +31393,10 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -46160,6 +46202,18 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CARD</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
