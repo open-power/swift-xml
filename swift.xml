@@ -10428,7 +10428,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>DIMM15</value>
+	<value>DIMM14</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -13927,6 +13927,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/Pallid-0/obusslot-0/ga100card-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>15</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>GPU0</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>15</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/obusslot-0/ga100card-0/brick-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -14069,6 +14084,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/Pallid-0/obusslot-1/ga100card-1</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>16</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>GPU1</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>16</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/obusslot-1/ga100card-1/brick-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -14208,6 +14238,21 @@
 	<property>
 	<id>SLOT_INDEX</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/obusslot-2/ga100card-2</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>17</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>GPU2</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>17</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14373,6 +14418,21 @@
 	<property>
 	<id>SLOT_INDEX</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/obusslot-3/ga100card-3</id>
+	<property>
+	<id>FRU_ID</id>
+	<value>18</value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value>GPU</value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value>18</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -51005,6 +51065,18 @@
 		<default>0x1DB1</default>
 	</attribute>
 	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -51015,6 +51087,10 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -52101,6 +52177,18 @@
 		<default>0x1DB1</default>
 	</attribute>
 	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -52111,6 +52199,10 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -52223,6 +52315,18 @@
 		<default>0x1DB1</default>
 	</attribute>
 	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -52233,6 +52337,10 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -52345,6 +52453,18 @@
 		<default>0x1DB1</default>
 	</attribute>
 	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -52355,6 +52475,10 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -53292,6 +53416,18 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -53302,6 +53438,10 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -53398,6 +53538,18 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -53408,6 +53560,10 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
