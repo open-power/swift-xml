@@ -4821,7 +4821,7 @@
 	<id>/sys-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>3</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17820,7 +17820,7 @@
 	</attribute>
 	<attribute>
 		<id>ALLOWED_MIXES</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>ALLOW_CALLHOME_ESELS_TO_BMC</id>
@@ -18580,31 +18580,31 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_ERROR_TEMP_DEG_C</id>
-		<default></default>
+		<default>74</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_READ_TIMEOUT_SEC</id>
-		<default></default>
+		<default>30</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_THROTTLE_TEMP_DEG_C</id>
-		<default></default>
+		<default>74</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_GPU_ERROR_TEMP_DEG_C</id>
-		<default></default>
+		<default>83</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_GPU_MEM_ERROR_TEMP_DEG_C</id>
-		<default></default>
+		<default>85</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_GPU_MEM_READ_TIMEOUT_SEC</id>
-		<default></default>
+		<default>30</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_GPU_READ_TIMEOUT_SEC</id>
-		<default></default>
+		<default>30</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MEMCTRL_ERROR_TEMP_DEG_C</id>
@@ -18620,31 +18620,31 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_MEM_UTILIZATION_POWER_CAP</id>
-		<default></default>
+		<default>25</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_MEM_UTILIZATION_THROTTLING</id>
-		<default></default>
+		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_POWER_CAP_WATTS</id>
-		<default></default>
+		<default>1700</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_BULK_POWER_LIMIT_WATTS</id>
-		<default></default>
+		<default>1700</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_MAX_MEM_POWER_WATTS</id>
-		<default></default>
+		<default>160</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
-		<default></default>
+		<default>2500</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_PLUS_ONE_MAX_MEM_POWER_WATTS</id>
-		<default></default>
+		<default>238</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PM_MODE</id>
@@ -18652,43 +18652,43 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PM_MODE_FREQ_PERCENT</id>
-		<default></default>
+		<default>85</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_DVFS_TEMP_DEG_C</id>
-		<default></default>
+		<default>95</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_ERROR_TEMP_DEG_C</id>
-		<default></default>
+		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_READ_TIMEOUT_SEC</id>
-		<default></default>
+		<default>10</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_WEIGHT</id>
-		<default></default>
+		<default>10</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_QUAD_WEIGHT</id>
-		<default></default>
+		<default>10</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_REGULATOR_EFFICIENCY_FACTOR</id>
-		<default></default>
+		<default>0x55</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_SOFT_MIN_PCAP_WATTS</id>
-		<default></default>
+		<default>1700</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_TURBO_MODE_SUPPORTED</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_VRM_READ_TIMEOUT_SEC</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_VRM_VDD_DVFS_TEMP_DEG_C</id>
@@ -18712,7 +18712,7 @@
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_KIND</id>
-		<default></default>
+		<default>SAPPHIRE</default>
 	</attribute>
 	<attribute>
 		<id>PCIE-DEFAULT-HDDW-SLOT-COUNT</id>
@@ -18929,7 +18929,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_FAMILY</id>
-		<default>ibm,p9</default>
+		<default>ibm,p9-openbmc</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_IVRM_DISABLE</id>
@@ -18985,11 +18985,11 @@
 	</attribute>
 	<attribute>
 		<id>WOF_ENABLE_FRATIO</id>
-		<default>0x00</default>
+		<default>FIXED</default>
 	</attribute>
 	<attribute>
 		<id>WOF_ENABLE_VRATIO</id>
-		<default>0x00</default>
+		<default>FIXED</default>
 	</attribute>
 	<attribute>
 		<id>WOF_POWER_LIMIT</id>
