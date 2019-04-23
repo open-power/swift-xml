@@ -109988,7 +109988,7 @@
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
-		<default>4</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -110802,7 +110802,7 @@
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
-		<default>5</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
