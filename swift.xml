@@ -18065,7 +18065,7 @@
 	<id>/sys-0/node-0/Pallid-0/psconn-4/powersupply-4</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>27</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18127,7 +18127,7 @@
 	<id>/sys-0/node-0/Pallid-0/psconn-5/powersupply-5</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>28</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -110091,7 +110091,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>FRU</default>
 	</attribute>
 	<attribute>
 		<id>STANDBY_PLUGGABLE</id>
@@ -110893,7 +110893,7 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
-		<default></default>
+		<default>null</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -110905,7 +110905,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>FRU</default>
 	</attribute>
 	<attribute>
 		<id>STANDBY_PLUGGABLE</id>
