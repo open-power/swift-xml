@@ -103168,7 +103168,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>TPM</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
