@@ -102055,7 +102055,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>PANEL</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -113552,7 +113552,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>VRM</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -113694,7 +113694,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>VRM</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
