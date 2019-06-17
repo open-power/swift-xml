@@ -16550,6 +16550,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/obus1/obus-brick5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/obus2/obus-brick6</id>
 	<property>
 	<id>DIRECTION</id>
@@ -18107,6 +18114,13 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/obus0/obus-brick3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/obus1/obus-brick5</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -36131,8 +36145,6 @@
 	<child_id>obus-brick1</child_id>
 	<child_id>obus-brick2</child_id>
 	<child_id>obus-brick3</child_id>
-	<child_id>obus-smpgroup0</child_id>
-	<child_id>obus-smpgroup1</child_id>
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>OBUS</default>
@@ -36595,188 +36607,6 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>obus-smpgroup0</id>
-	<type>unit-obus-smpgroup</type>
-	<is_root>false</is_root>
-	<instance_name>obus-smpgroup0</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>ABUS</default>
-	</attribute>
-	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>FABRIC</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_PRECURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_MARGIN_RATIO</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OLLFIR_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IO_O_CHANNEL_TYPE</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_CHK</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
-		<default>SET_NONE</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
-	</attribute>
-	<attribute>
-		<id>PEER_TARGET</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>SMPGROUP</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>obus-smpgroup1</id>
-	<type>unit-obus-smpgroup</type>
-	<is_root>false</is_root>
-	<instance_name>obus-smpgroup1</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>ABUS</default>
-	</attribute>
-	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>FABRIC</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_PRECURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_MARGIN_RATIO</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OLLFIR_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IO_O_CHANNEL_TYPE</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_CHK</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
-		<default>SET_NONE</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
-	</attribute>
-	<attribute>
-		<id>PEER_TARGET</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>SMPGROUP</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
 	<id>obus1</id>
 	<type>unit-obus-axone</type>
 	<is_root>false</is_root>
@@ -36784,8 +36614,6 @@
 	<position>-1</position>
 	<child_id>obus-brick4</child_id>
 	<child_id>obus-brick5</child_id>
-	<child_id>obus-smpgroup2</child_id>
-	<child_id>obus-smpgroup3</child_id>
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>OBUS</default>
@@ -37058,188 +36886,6 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>obus-smpgroup2</id>
-	<type>unit-obus-smpgroup</type>
-	<is_root>false</is_root>
-	<instance_name>obus-smpgroup2</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>ABUS</default>
-	</attribute>
-	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>FABRIC</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_PRECURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_MARGIN_RATIO</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OLLFIR_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IO_O_CHANNEL_TYPE</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_CHK</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
-		<default>SET_NONE</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
-	</attribute>
-	<attribute>
-		<id>PEER_TARGET</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>SMPGROUP</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>obus-smpgroup3</id>
-	<type>unit-obus-smpgroup</type>
-	<is_root>false</is_root>
-	<instance_name>obus-smpgroup3</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>ABUS</default>
-	</attribute>
-	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>FABRIC</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>3</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_PRECURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_MARGIN_RATIO</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OLLFIR_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IO_O_CHANNEL_TYPE</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_CHK</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
-		<default>SET_NONE</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
-	</attribute>
-	<attribute>
-		<id>PEER_TARGET</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>SMPGROUP</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
 	<id>obus2</id>
 	<type>unit-obus-axone</type>
 	<is_root>false</is_root>
@@ -37247,8 +36893,6 @@
 	<position>-1</position>
 	<child_id>obus-brick6</child_id>
 	<child_id>obus-brick7</child_id>
-	<child_id>obus-smpgroup4</child_id>
-	<child_id>obus-smpgroup5</child_id>
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>OBUS</default>
@@ -37521,188 +37165,6 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>obus-smpgroup4</id>
-	<type>unit-obus-smpgroup</type>
-	<is_root>false</is_root>
-	<instance_name>obus-smpgroup4</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>ABUS</default>
-	</attribute>
-	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>FABRIC</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>4</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_PRECURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_MARGIN_RATIO</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OLLFIR_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IO_O_CHANNEL_TYPE</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_CHK</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
-		<default>SET_NONE</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
-	</attribute>
-	<attribute>
-		<id>PEER_TARGET</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>SMPGROUP</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>obus-smpgroup5</id>
-	<type>unit-obus-smpgroup</type>
-	<is_root>false</is_root>
-	<instance_name>obus-smpgroup5</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>ABUS</default>
-	</attribute>
-	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>FABRIC</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_PRECURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_MARGIN_RATIO</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OLLFIR_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IO_O_CHANNEL_TYPE</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_CHK</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
-		<default>SET_NONE</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
-	</attribute>
-	<attribute>
-		<id>PEER_TARGET</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>SMPGROUP</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
 	<id>obus3</id>
 	<type>unit-obus-axone</type>
 	<is_root>false</is_root>
@@ -37712,8 +37174,6 @@
 	<child_id>obus-brick9</child_id>
 	<child_id>obus-brick10</child_id>
 	<child_id>obus-brick11</child_id>
-	<child_id>obus-smpgroup6</child_id>
-	<child_id>obus-smpgroup7</child_id>
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>OBUS</default>
@@ -38173,188 +37633,6 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>OBUS_BRICK</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>obus-smpgroup6</id>
-	<type>unit-obus-smpgroup</type>
-	<is_root>false</is_root>
-	<instance_name>obus-smpgroup6</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>ABUS</default>
-	</attribute>
-	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>FABRIC</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>6</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_PRECURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_MARGIN_RATIO</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OLLFIR_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IO_O_CHANNEL_TYPE</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_CHK</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
-		<default>SET_NONE</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
-	</attribute>
-	<attribute>
-		<id>PEER_TARGET</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>SMPGROUP</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>obus-smpgroup7</id>
-	<type>unit-obus-smpgroup</type>
-	<is_root>false</is_root>
-	<instance_name>obus-smpgroup7</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>ABUS</default>
-	</attribute>
-	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>FABRIC</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>7</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>INOUT</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_FFE_PRECURSOR</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OBUS_TX_MARGIN_RATIO</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_OLLFIR_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IO_O_CHANNEL_TYPE</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_CHK</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_MFG_MIN_EYE_WIDTH</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
-		<default>SET_NONE</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
-	</attribute>
-	<attribute>
-		<id>PEER_TARGET</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>SMPGROUP</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
