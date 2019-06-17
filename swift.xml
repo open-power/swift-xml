@@ -19544,7 +19544,7 @@
 	</attribute>
 	<attribute>
 		<id>OPAL_MODEL</id>
-		<default>ibm,miscopenpower</default>
+		<default>ibm,swift</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_ERROR_TEMP_DEG_C</id>
@@ -19916,7 +19916,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_TYPE</id>
-		<default>ibm,miscopenpower</default>
+		<default>ibm,swift</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_VDM_DISABLE</id>
@@ -36800,7 +36800,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -37263,7 +37263,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>0</default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -37728,7 +37728,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>0</default>
+		<default>3</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -45757,7 +45757,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>PMIC</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -45929,7 +45929,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>PMIC</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
