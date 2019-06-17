@@ -15115,7 +15115,7 @@
 	</property>
 	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -16727,7 +16727,7 @@
 	</property>
 	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -19766,7 +19766,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_PUMP_MODE</id>
-		<default></default>
+		<default>MODE2</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_SMP_OPTICS_MODE</id>
@@ -44467,7 +44467,7 @@
 	</attribute>
 	<attribute>
 		<id>PBAX_CHIPID</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>PBAX_GROUPID</id>
