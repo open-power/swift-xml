@@ -52622,7 +52622,7 @@
 	</attribute>
 	<attribute>
 		<id>ROLE</id>
-		<default>null</default>
+		<default>PRIMARY</default>
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
@@ -52630,7 +52630,7 @@
 	</attribute>
 	<attribute>
 		<id>SW_VER</id>
-		<default>null</default>
+		<default>BMC_SW_VER</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
