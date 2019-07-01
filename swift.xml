@@ -1572,28 +1572,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>CME_CHTM_TRACE_ENABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CME_INSTRUCTION_TRACE_ENABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>CONNECTOR_TYPE</id>
 		<enumerator>
 		<name>PCIE_X8_CARD</name>
@@ -2166,6 +2144,62 @@
 <enumerationType>
 	<id>HDAT_I2C_DEVICE_TYPE</id>
 		<enumerator>
+		<name>955X</name>
+		<value>0x1</value>
+		</enumerator>
+		<enumerator>
+		<name>SEEPROM_Atmel24c412</name>
+		<value>0x0E</value>
+		</enumerator>
+		<enumerator>
+		<name>SEEPROM</name>
+		<value>0x2</value>
+		</enumerator>
+		<enumerator>
+		<name>TCG_I2C_TPM</name>
+		<value>0x15</value>
+		</enumerator>
+		<enumerator>
+		<name>SEEPROM_Atmel24c64</name>
+		<value>0x10</value>
+		</enumerator>
+		<enumerator>
+		<name>MEX_FPGA</name>
+		<value>0x4</value>
+		</enumerator>
+		<enumerator>
+		<name>SEEPROM_Atmel28c256</name>
+		<value>0xB</value>
+		</enumerator>
+		<enumerator>
+		<name>SEEPROM_Atmel24c04</name>
+		<value>0x0D</value>
+		</enumerator>
+		<enumerator>
+		<name>THERMAL_SENSOR</name>
+		<value>0x0C</value>
+		</enumerator>
+		<enumerator>
+		<name>NXP_LPC_Microcontroller_LPC11U35</name>
+		<value>0x13</value>
+		</enumerator>
+		<enumerator>
+		<name>SMP_or_OpenCAPI_Cable</name>
+		<value>0xA</value>
+		</enumerator>
+		<enumerator>
+		<name>NUVOTON_TPM</name>
+		<value>0x3</value>
+		</enumerator>
+		<enumerator>
+		<name>UCX90XX</name>
+		<value>0x5</value>
+		</enumerator>
+		<enumerator>
+		<name>NVDIA_GPU</name>
+		<value>0x12</value>
+		</enumerator>
+		<enumerator>
 		<name>9553</name>
 		<value>0x7</value>
 		</enumerator>
@@ -2182,14 +2216,6 @@
 		<value>0x6</value>
 		</enumerator>
 		<enumerator>
-		<name>955X</name>
-		<value>0x1</value>
-		</enumerator>
-		<enumerator>
-		<name>SEEPROM</name>
-		<value>0x2</value>
-		</enumerator>
-		<enumerator>
 		<name>9555</name>
 		<value>0x9</value>
 		</enumerator>
@@ -2198,24 +2224,16 @@
 		<value>0x2</value>
 		</enumerator>
 		<enumerator>
-		<name>MEX_FPGA</name>
-		<value>0x4</value>
+		<name>SEEPROM_Atmel24c32</name>
+		<value>0x0F</value>
 		</enumerator>
 		<enumerator>
-		<name>SEEPROM_Atmel28c256</name>
-		<value>0xB</value>
+		<name>9550</name>
+		<value>0x14</value>
 		</enumerator>
 		<enumerator>
-		<name>SMP_or_OpenCAPI_Cable</name>
-		<value>0xA</value>
-		</enumerator>
-		<enumerator>
-		<name>NUVOTON_TPM</name>
-		<value>0x3</value>
-		</enumerator>
-		<enumerator>
-		<name>UCX90XX</name>
-		<value>0x5</value>
+		<name>SEEPROM_Atmel24c16</name>
+		<value>0x11</value>
 		</enumerator>
 		<enumerator>
 		<name>NVLINK</name>
@@ -3295,6 +3313,28 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>MSS_OCMB_EXP_OMI_CFG_ENDIAN_CTRL</id>
+		<enumerator>
+		<name>BIG_ENDIAN</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>LITTLE_ENDIAN</name>
+		<value>0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>MSS_OMI_EDPL_DISABLE</id>
+		<enumerator>
+		<name>TRUE</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>FALSE</name>
+		<value>0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>MULTI_SCOM_BUFFER_MAX_SIZE_BIT</id>
 		<enumerator>
 		<name>MULTI_SCOM_BUFFER_SIZE_32KB</name>
@@ -3408,6 +3448,28 @@
 		<enumerator>
 		<name>512_KB</name>
 		<value>0x0000000000080000</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>OMI_DL_LN_REV_ENABLE</id>
+		<enumerator>
+		<name>DISABLED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLED</name>
+		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<enumerator>
+		<name>DISABLED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLED</name>
+		<value>0x01</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -19526,6 +19588,14 @@
 		<default>ALLOW_ENTERPRISE</default>
 	</attribute>
 	<attribute>
+		<id>MSS_OCMB_EXP_OMI_CFG_ENDIAN_CTRL</id>
+		<default>LITTLE_ENDIAN</default>
+	</attribute>
+	<attribute>
+		<id>MSS_OMI_EDPL_DISABLE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MSS_VCS_PROGRAM</id>
 		<default>0</default>
 	</attribute>
@@ -19607,6 +19677,10 @@
 				<field><id>int32</id><value></value></field>
 				<field><id>int64</id><value></value></field>
 		</default>
+	</attribute>
+	<attribute>
+		<id>NVDIMM_AUTO_ARM</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>NVDIMM_ENCRYPTION_ENABLE</id>
@@ -28438,18 +28512,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>CME_CHTM_TRACE_ENABLE</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>CME_CHTM_TRACE_MEMORY_CONFIG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>CME_INSTRUCTION_TRACE_ENABLE</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>CPU_ATTR</id>
 		<default>0x0000001D</default>
 	</attribute>
@@ -28825,18 +28887,6 @@
 	<attribute>
 		<id>PROC_HW_TOPOLOGY</id>
 		<default>0x00000000</default>
-	</attribute>
-	<attribute>
-		<id>PROC_NPU0_PRI_CONFIG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_NPU1_PRI_CONFIG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_NPU2_PRI_CONFIG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PROC_OMI_OC_MAJOR_VER</id>
@@ -31916,8 +31966,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -31983,8 +32045,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -32139,8 +32213,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -32206,8 +32292,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -32411,8 +32509,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -32478,8 +32588,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -32634,8 +32756,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -32701,8 +32835,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -33171,8 +33317,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -33238,8 +33396,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -33394,8 +33564,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -33461,8 +33643,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -33666,8 +33860,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -33733,8 +33939,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -33889,8 +34107,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -33956,8 +34186,20 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>OMI_DL_LN_REV_ENABLE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_PREIPL_PRBS_TIME</id>
+		<default>0x100</default>
+	</attribute>
+	<attribute>
+		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -108168,7 +108410,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>SYS</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -108219,7 +108461,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>SYS</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -108270,7 +108512,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>SYS</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -108321,7 +108563,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>SYS</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -108372,7 +108614,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>SYS</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -108423,7 +108665,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>SYS</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -108474,7 +108716,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>SYS</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -108525,7 +108767,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>SYS</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -108576,7 +108818,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>SYS</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -108627,7 +108869,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>SYS</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -108678,7 +108920,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>SYS</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -108729,7 +108971,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>SYS</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
