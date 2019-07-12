@@ -5151,6 +5151,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/hb_volatile_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xCC</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/host_auto_reboot_control_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xCD</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/host_status_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -18385,6 +18399,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/Pallid-0/vrmconn-7/cpu0_vrm-7/vrm_vdd_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xCF</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/vrmconn-8</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -18418,6 +18439,13 @@
 	<property>
 	<id>VPD_SIZE</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/vrmconn-8/cpu1_vrm-8/vrm_vdd_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xD0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18511,6 +18539,13 @@
 	<value>0xCB</value>
 	</property>
 </globalSetting>
+<globalSetting>
+	<id>/sys-0/turbo_allowed_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xCE</value>
+	</property>
+</globalSetting>
 </globalSettings>
 <attributeGroups>
 <attributeGroup>
@@ -18559,6 +18594,9 @@
 	<hidden_child_id>ps_derating_sensor</hidden_child_id>
 	<hidden_child_id>dimm_freq_sensor</hidden_child_id>
 	<hidden_child_id>tpm_required_sensor</hidden_child_id>
+	<hidden_child_id>hb_volatile_sensor</hidden_child_id>
+	<hidden_child_id>host_auto_reboot_control_sensor</hidden_child_id>
+	<hidden_child_id>turbo_allowed_sensor</hidden_child_id>
 	<hidden_child_id>ps_redundancy_state_sensor</hidden_child_id>
 	<attribute>
 		<id>ADC_CHANNEL_FUNC_IDS</id>
@@ -107545,6 +107583,7 @@
 	<position>7</position>
 	<child_id>led_assoc_child</child_id>
 	<child_id>planar_vpd-5</child_id>
+	<hidden_child_id>vrm_vdd_temp_sensor</hidden_child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
 		<default>NA</default>
@@ -107644,6 +107683,57 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>vrm_vdd_temp_sensor</id>
+	<type>unit-ipmi-sensor</type>
+	<is_root>false</is_root>
+	<instance_name>vrm_vdd_temp_sensor</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0x20</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
+		<default>Temp</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_OFFSETS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>IPMI_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>vrmconn-8</id>
 	<type>connector-card-generic</type>
 	<is_root>false</is_root>
@@ -107687,6 +107777,7 @@
 	<position>8</position>
 	<child_id>led_assoc_child</child_id>
 	<child_id>planar_vpd-6</child_id>
+	<hidden_child_id>vrm_vdd_temp_sensor</hidden_child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
 		<default>NA</default>
@@ -108555,6 +108646,159 @@
 	<type>unit-ipmi-sensor</type>
 	<is_root>false</is_root>
 	<instance_name>tpm_required_sensor</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0x03</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
+		<default>TPM_Required</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_OFFSETS</id>
+		<default>0x00,0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x03</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xCC</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>IPMI_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>hb_volatile_sensor</id>
+	<type>unit-ipmi-sensor</type>
+	<is_root>false</is_root>
+	<instance_name>hb_volatile_sensor</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0x03</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
+		<default>TPM_Required</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_OFFSETS</id>
+		<default>0x00,0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x03</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xCC</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>IPMI_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>host_auto_reboot_control_sensor</id>
+	<type>unit-ipmi-sensor</type>
+	<is_root>false</is_root>
+	<instance_name>host_auto_reboot_control_sensor</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0x03</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
+		<default>TPM_Required</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_OFFSETS</id>
+		<default>0x00,0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x03</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xCC</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>IPMI_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>turbo_allowed_sensor</id>
+	<type>unit-ipmi-sensor</type>
+	<is_root>false</is_root>
+	<instance_name>turbo_allowed_sensor</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
