@@ -15254,13 +15254,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq0/ex0/core0/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x13</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq0/ex0/core0/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -15283,13 +15276,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>1</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq0/ex0/core1/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x16</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15318,13 +15304,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq0/ex1/core2/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x19</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq0/ex1/core2/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -15347,13 +15326,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>3</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq0/ex1/core3/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x1C</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15382,13 +15354,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq1/ex2/core4/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x1F</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq1/ex2/core4/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -15411,13 +15376,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>5</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq1/ex2/core5/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x22</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15446,13 +15404,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq1/ex3/core6/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x25</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq1/ex3/core6/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -15475,13 +15426,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>7</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq1/ex3/core7/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x28</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15510,13 +15454,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq2/ex4/core8/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x2B</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq2/ex4/core8/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -15539,13 +15476,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>9</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq2/ex4/core9/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x2E</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15574,13 +15504,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq2/ex5/core10/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x31</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq2/ex5/core10/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -15603,13 +15526,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>11</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq2/ex5/core11/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x34</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15638,13 +15554,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq3/ex6/core12/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x37</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq3/ex6/core12/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -15667,13 +15576,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>13</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq3/ex6/core13/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x3A</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15702,13 +15604,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq3/ex7/core14/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x3D</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq3/ex7/core14/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -15731,13 +15626,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>15</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq3/ex7/core15/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x40</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15766,13 +15654,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq4/ex8/core16/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x43</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq4/ex8/core16/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -15795,13 +15676,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>17</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq4/ex8/core17/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x46</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15830,13 +15704,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq4/ex9/core18/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x49</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq4/ex9/core18/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -15859,13 +15726,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>19</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq4/ex9/core19/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x4C</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15894,13 +15754,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq5/ex10/core20/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x4F</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq5/ex10/core20/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -15923,13 +15776,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>21</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq5/ex10/core21/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x52</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15958,13 +15804,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq5/ex11/core22/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x55</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq5/ex11/core22/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -15987,13 +15826,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>23</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-0/Hopper-0/p9_axone/eq5/ex11/core23/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x58</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -16937,13 +16769,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq0/ex0/core0/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x5D</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq0/ex0/core0/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -16966,13 +16791,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>25</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq0/ex0/core1/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x60</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17001,13 +16819,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq0/ex1/core2/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x63</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq0/ex1/core2/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -17030,13 +16841,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>27</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq0/ex1/core3/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x66</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17065,13 +16869,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq1/ex2/core4/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x69</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq1/ex2/core4/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -17094,13 +16891,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>29</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq1/ex2/core5/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x6C</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17129,13 +16919,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq1/ex3/core6/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x6F</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq1/ex3/core6/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -17158,13 +16941,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>31</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq1/ex3/core7/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x72</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17193,13 +16969,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq2/ex4/core8/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x75</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq2/ex4/core8/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -17222,13 +16991,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>33</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq2/ex4/core9/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x78</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17257,13 +17019,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq2/ex5/core10/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x7B</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq2/ex5/core10/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -17286,13 +17041,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>35</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq2/ex5/core11/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x7E</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17321,13 +17069,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq3/ex6/core12/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x81</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq3/ex6/core12/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -17350,13 +17091,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>37</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq3/ex6/core13/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x84</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17385,13 +17119,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq3/ex7/core14/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x87</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq3/ex7/core14/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -17414,13 +17141,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>39</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq3/ex7/core15/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x8A</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17449,13 +17169,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq4/ex8/core16/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x8D</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq4/ex8/core16/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -17478,13 +17191,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>41</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq4/ex8/core17/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x90</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17513,13 +17219,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq4/ex9/core18/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x93</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq4/ex9/core18/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -17542,13 +17241,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>43</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq4/ex9/core19/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x96</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17577,13 +17269,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq5/ex10/core20/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x99</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq5/ex10/core20/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -17606,13 +17291,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>45</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq5/ex10/core21/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x9C</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17641,13 +17319,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq5/ex11/core22/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0x9F</value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq5/ex11/core22/cpucore_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
@@ -17670,13 +17341,6 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value>47</value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/Pallid-0/proc_socket-1/Hopper-1/p9_axone/eq5/ex11/core23/cpucore_freq_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0xA2</value>
 	</property>
 </globalSetting>
 <globalSetting>
