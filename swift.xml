@@ -9833,6 +9833,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-0/dimm-0/spd</id>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-0/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -45897,7 +45904,7 @@
 	<child_id>i2c-slave</child_id>
 	<attribute>
 		<id>BYTE_ADDRESS_OFFSET</id>
-		<default>0x01</default>
+		<default>0x02</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -45909,11 +45916,11 @@
 	</attribute>
 	<attribute>
 		<id>I2C_SPEED</id>
-		<default></default>
+		<default>100</default>
 	</attribute>
 	<attribute>
 		<id>MEMORY_SIZE_IN_KB</id>
-		<default>0x01</default>
+		<default>0x04</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -45941,7 +45948,7 @@
 	</attribute>
 	<attribute>
 		<id>WRITE_PAGE_SIZE</id>
-		<default>0x50</default>
+		<default>0x20</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
