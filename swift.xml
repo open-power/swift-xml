@@ -9714,13 +9714,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-0/dimm-0/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-0/dimm-0/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9762,6 +9755,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-0/dimm-0/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9912,13 +9912,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-1/dimm-1/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-1/dimm-1/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9960,6 +9953,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-1/dimm-1/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -10110,13 +10110,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-10/dimm-10/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-10/dimm-10/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -10158,6 +10151,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-10/dimm-10/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -10308,13 +10308,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-11/dimm-11/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-11/dimm-11/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -10356,6 +10349,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-11/dimm-11/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -10499,13 +10499,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-12/dimm-12/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-12/dimm-12/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -10547,6 +10540,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-12/dimm-12/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -10697,13 +10697,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-13/dimm-13/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-13/dimm-13/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -10745,6 +10738,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-13/dimm-13/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -10888,13 +10888,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-14/dimm-14/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-14/dimm-14/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -10936,6 +10929,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-14/dimm-14/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -11079,13 +11079,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-15/dimm-15/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-15/dimm-15/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -11127,6 +11120,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-15/dimm-15/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -11277,13 +11277,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-16/dimm-16/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-16/dimm-16/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -11325,6 +11318,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-16/dimm-16/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -11468,13 +11468,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-17/dimm-17/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-17/dimm-17/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -11516,6 +11509,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-17/dimm-17/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -11659,13 +11659,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-18/dimm-18/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-18/dimm-18/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -11707,6 +11700,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-18/dimm-18/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -11850,13 +11850,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-19/dimm-19/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-19/dimm-19/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -11898,6 +11891,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-19/dimm-19/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -12041,13 +12041,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-2/dimm-2/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-2/dimm-2/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -12089,6 +12082,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-2/dimm-2/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -12232,13 +12232,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-20/dimm-20/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-20/dimm-20/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -12280,6 +12273,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-20/dimm-20/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -12423,13 +12423,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-21/dimm-21/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-21/dimm-21/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -12471,6 +12464,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-21/dimm-21/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -12614,13 +12614,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-22/dimm-22/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-22/dimm-22/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -12662,6 +12655,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-22/dimm-22/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -12812,13 +12812,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-23/dimm-23/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-23/dimm-23/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -12860,6 +12853,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-23/dimm-23/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -13010,13 +13010,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-3/dimm-3/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-3/dimm-3/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -13058,6 +13051,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-3/dimm-3/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -13208,13 +13208,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-4/dimm-4/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-4/dimm-4/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -13256,6 +13249,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-4/dimm-4/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -13406,13 +13406,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-5/dimm-5/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-5/dimm-5/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -13454,6 +13447,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-5/dimm-5/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -13604,13 +13604,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-6/dimm-6/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-6/dimm-6/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -13652,6 +13645,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-6/dimm-6/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -13795,13 +13795,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-7/dimm-7/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-7/dimm-7/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -13843,6 +13836,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-7/dimm-7/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -13986,13 +13986,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-8/dimm-8/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-8/dimm-8/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -14034,6 +14027,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-8/dimm-8/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -14177,13 +14177,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/Pallid-0/dimmconn-9/dimm-9/ocmb/ddr_ch</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/Pallid-0/dimmconn-9/dimm-9/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -14225,6 +14218,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/Pallid-0/dimmconn-9/dimm-9/ocmb/mem_port</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -20412,11 +20412,11 @@
 		<default>NA</default>
 	</attribute>
 	<bus>
-		<bus_id>dimmconn-0/dimm-0/ocmb/ddr_ch => dimmconn-0/dimm-0/ddr4</bus_id>
+		<bus_id>dimmconn-0/dimm-0/ocmb/mem_port => dimmconn-0/dimm-0/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-0/dimm-0/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-0/dimm-0/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20425,11 +20425,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-1/dimm-1/ocmb/ddr_ch => dimmconn-1/dimm-1/ddr4</bus_id>
+		<bus_id>dimmconn-1/dimm-1/ocmb/mem_port => dimmconn-1/dimm-1/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-1/dimm-1/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-1/dimm-1/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20438,11 +20438,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-2/dimm-2/ocmb/ddr_ch => dimmconn-2/dimm-2/ddr4</bus_id>
+		<bus_id>dimmconn-2/dimm-2/ocmb/mem_port => dimmconn-2/dimm-2/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-2/dimm-2/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-2/dimm-2/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20451,11 +20451,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-3/dimm-3/ocmb/ddr_ch => dimmconn-3/dimm-3/ddr4</bus_id>
+		<bus_id>dimmconn-3/dimm-3/ocmb/mem_port => dimmconn-3/dimm-3/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-3/dimm-3/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-3/dimm-3/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20464,11 +20464,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-4/dimm-4/ocmb/ddr_ch => dimmconn-4/dimm-4/ddr4</bus_id>
+		<bus_id>dimmconn-4/dimm-4/ocmb/mem_port => dimmconn-4/dimm-4/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-4/dimm-4/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-4/dimm-4/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20477,11 +20477,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-5/dimm-5/ocmb/ddr_ch => dimmconn-5/dimm-5/ddr4</bus_id>
+		<bus_id>dimmconn-5/dimm-5/ocmb/mem_port => dimmconn-5/dimm-5/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-5/dimm-5/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-5/dimm-5/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20490,11 +20490,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-6/dimm-6/ocmb/ddr_ch => dimmconn-6/dimm-6/ddr4</bus_id>
+		<bus_id>dimmconn-6/dimm-6/ocmb/mem_port => dimmconn-6/dimm-6/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-6/dimm-6/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-6/dimm-6/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20503,11 +20503,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-7/dimm-7/ocmb/ddr_ch => dimmconn-7/dimm-7/ddr4</bus_id>
+		<bus_id>dimmconn-7/dimm-7/ocmb/mem_port => dimmconn-7/dimm-7/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-7/dimm-7/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-7/dimm-7/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20516,11 +20516,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-8/dimm-8/ocmb/ddr_ch => dimmconn-8/dimm-8/ddr4</bus_id>
+		<bus_id>dimmconn-8/dimm-8/ocmb/mem_port => dimmconn-8/dimm-8/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-8/dimm-8/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-8/dimm-8/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20529,11 +20529,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-9/dimm-9/ocmb/ddr_ch => dimmconn-9/dimm-9/ddr4</bus_id>
+		<bus_id>dimmconn-9/dimm-9/ocmb/mem_port => dimmconn-9/dimm-9/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-9/dimm-9/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-9/dimm-9/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20542,11 +20542,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-10/dimm-10/ocmb/ddr_ch => dimmconn-10/dimm-10/ddr4</bus_id>
+		<bus_id>dimmconn-10/dimm-10/ocmb/mem_port => dimmconn-10/dimm-10/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-10/dimm-10/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-10/dimm-10/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20555,11 +20555,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-11/dimm-11/ocmb/ddr_ch => dimmconn-11/dimm-11/ddr4</bus_id>
+		<bus_id>dimmconn-11/dimm-11/ocmb/mem_port => dimmconn-11/dimm-11/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-11/dimm-11/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-11/dimm-11/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20568,11 +20568,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-12/dimm-12/ocmb/ddr_ch => dimmconn-12/dimm-12/ddr4</bus_id>
+		<bus_id>dimmconn-12/dimm-12/ocmb/mem_port => dimmconn-12/dimm-12/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-12/dimm-12/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-12/dimm-12/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20581,11 +20581,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-13/dimm-13/ocmb/ddr_ch => dimmconn-13/dimm-13/ddr4</bus_id>
+		<bus_id>dimmconn-13/dimm-13/ocmb/mem_port => dimmconn-13/dimm-13/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-13/dimm-13/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-13/dimm-13/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20594,11 +20594,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-14/dimm-14/ocmb/ddr_ch => dimmconn-14/dimm-14/ddr4</bus_id>
+		<bus_id>dimmconn-14/dimm-14/ocmb/mem_port => dimmconn-14/dimm-14/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-14/dimm-14/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-14/dimm-14/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20607,11 +20607,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-15/dimm-15/ocmb/ddr_ch => dimmconn-15/dimm-15/ddr4</bus_id>
+		<bus_id>dimmconn-15/dimm-15/ocmb/mem_port => dimmconn-15/dimm-15/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-15/dimm-15/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-15/dimm-15/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20620,11 +20620,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-16/dimm-16/ocmb/ddr_ch => dimmconn-16/dimm-16/ddr4</bus_id>
+		<bus_id>dimmconn-16/dimm-16/ocmb/mem_port => dimmconn-16/dimm-16/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-16/dimm-16/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-16/dimm-16/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20633,11 +20633,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-17/dimm-17/ocmb/ddr_ch => dimmconn-17/dimm-17/ddr4</bus_id>
+		<bus_id>dimmconn-17/dimm-17/ocmb/mem_port => dimmconn-17/dimm-17/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-17/dimm-17/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-17/dimm-17/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20646,11 +20646,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-18/dimm-18/ocmb/ddr_ch => dimmconn-18/dimm-18/ddr4</bus_id>
+		<bus_id>dimmconn-18/dimm-18/ocmb/mem_port => dimmconn-18/dimm-18/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-18/dimm-18/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-18/dimm-18/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20659,11 +20659,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-19/dimm-19/ocmb/ddr_ch => dimmconn-19/dimm-19/ddr4</bus_id>
+		<bus_id>dimmconn-19/dimm-19/ocmb/mem_port => dimmconn-19/dimm-19/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-19/dimm-19/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-19/dimm-19/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20672,11 +20672,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-20/dimm-20/ocmb/ddr_ch => dimmconn-20/dimm-20/ddr4</bus_id>
+		<bus_id>dimmconn-20/dimm-20/ocmb/mem_port => dimmconn-20/dimm-20/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-20/dimm-20/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-20/dimm-20/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20685,11 +20685,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-21/dimm-21/ocmb/ddr_ch => dimmconn-21/dimm-21/ddr4</bus_id>
+		<bus_id>dimmconn-21/dimm-21/ocmb/mem_port => dimmconn-21/dimm-21/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-21/dimm-21/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-21/dimm-21/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20698,11 +20698,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-22/dimm-22/ocmb/ddr_ch => dimmconn-22/dimm-22/ddr4</bus_id>
+		<bus_id>dimmconn-22/dimm-22/ocmb/mem_port => dimmconn-22/dimm-22/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-22/dimm-22/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-22/dimm-22/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -20711,11 +20711,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>dimmconn-23/dimm-23/ocmb/ddr_ch => dimmconn-23/dimm-23/ddr4</bus_id>
+		<bus_id>dimmconn-23/dimm-23/ocmb/mem_port => dimmconn-23/dimm-23/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
 		<cable>no</cable>
 		<source_path>dimmconn-23/dimm-23/ocmb/</source_path>
-		<source_target>ddr_ch</source_target>
+		<source_target>mem_port</source_target>
 		<dest_path>dimmconn-23/dimm-23/</dest_path>
 		<dest_target>ddr4</dest_target>
 		<bus_attribute>
@@ -45380,7 +45380,7 @@
 	<instance_name>ocmb</instance_name>
 	<position>-1</position>
 	<child_id>omi</child_id>
-	<child_id>ddr_ch</child_id>
+	<child_id>mem_port</child_id>
 	<child_id>i2c-ocmb</child_id>
 	<child_id>i2c-ts0</child_id>
 	<child_id>i2c-ts1</child_id>
@@ -45516,14 +45516,18 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>ddr_ch</id>
-	<type>unit-dimm_port-power9</type>
+	<id>mem_port</id>
+	<type>unit-mem_port</type>
 	<is_root>false</is_root>
-	<instance_name>ddr_ch</instance_name>
+	<instance_name>mem_port</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>DDR4</default>
+	</attribute>
+	<attribute>
+		<id>CDM_DOMAIN</id>
+		<default>MEM</default>
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
@@ -45538,16 +45542,8 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DIRECTION</id>
-		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>MBA_DIMM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>MBA_PORT</id>
-		<default>0</default>
+		<id>EXP_SAFEMODE_MEM_THROTTLED_N_COMMANDS_PER_PORT</id>
+		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -45566,12 +45562,8 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>MEM_PORT</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
