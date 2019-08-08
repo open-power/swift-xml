@@ -17086,7 +17086,7 @@
 	</property>
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
-	<value></value>
+	<value>NO_SWAP</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17097,7 +17097,7 @@
 	</property>
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
-	<value></value>
+	<value>NO_SWAP</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17108,7 +17108,7 @@
 	</property>
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
-	<value></value>
+	<value>NO_SWAP</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18637,7 +18637,7 @@
 	</property>
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
-	<value></value>
+	<value>NO_SWAP</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18648,7 +18648,7 @@
 	</property>
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
-	<value></value>
+	<value>NO_SWAP</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18659,7 +18659,7 @@
 	</property>
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
-	<value></value>
+	<value>GROUP_1_SWAP</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -19369,7 +19369,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PB_MHZ</id>
-		<default></default>
+		<default>2000</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_PB_MHZ_POUNDV_FALLBACK</id>
@@ -20137,7 +20137,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_EPS_TABLE_TYPE</id>
-		<default></default>
+		<default>EPS_TYPE_LE</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_A_BUS_WIDTH</id>
@@ -20153,7 +20153,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_PUMP_MODE</id>
-		<default>MODE2</default>
+		<default>CHIP_IS_GROUP</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_SMP_OPTICS_MODE</id>
@@ -32828,7 +32828,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
@@ -32852,7 +32852,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>6</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -32931,7 +32931,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -33099,7 +33099,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>4</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -33178,7 +33178,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -33395,7 +33395,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -33474,7 +33474,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -33642,7 +33642,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -33721,7 +33721,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>3</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -34203,7 +34203,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>8</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -34282,7 +34282,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>9</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -34450,7 +34450,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>0x0C</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -34529,7 +34529,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>0x0D</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -34746,7 +34746,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>8</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -34825,7 +34825,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>9</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -34993,7 +34993,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>0x0a</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -35072,7 +35072,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default></default>
+		<default>0x0b</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -37314,6 +37314,10 @@
 		<default>NV</default>
 	</attribute>
 	<attribute>
+		<id>IO_O_CHANNEL_TYPE</id>
+		<default>BOARD</default>
+	</attribute>
+	<attribute>
 		<id>PEER_TARGET</id>
 		<default></default>
 	</attribute>
@@ -37406,7 +37410,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>NV</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
@@ -37501,7 +37505,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>NV</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
@@ -37596,7 +37600,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>NV</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
@@ -37691,7 +37695,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>NV</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
@@ -37756,7 +37760,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_O_CHANNEL_TYPE</id>
-		<default>0x0</default>
+		<default>BOARD</default>
 	</attribute>
 	<attribute>
 		<id>IO_O_MFG_CHK</id>
@@ -37875,7 +37879,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>NV</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
@@ -37970,7 +37974,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>NV</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
@@ -38035,7 +38039,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_O_CHANNEL_TYPE</id>
-		<default>0x0</default>
+		<default>CABLE</default>
 	</attribute>
 	<attribute>
 		<id>IO_O_MFG_CHK</id>
@@ -38154,7 +38158,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>NV</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
@@ -38249,7 +38253,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>NV</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
@@ -38316,7 +38320,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_O_CHANNEL_TYPE</id>
-		<default>0x0</default>
+		<default>BOARD</default>
 	</attribute>
 	<attribute>
 		<id>IO_O_MFG_CHK</id>
@@ -38340,7 +38344,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>NV</default>
+		<default>OCAPI</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
@@ -38435,7 +38439,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>OCAPI</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
@@ -38530,7 +38534,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>OCAPI</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
@@ -38625,7 +38629,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>OCAPI</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
@@ -38720,7 +38724,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>OCAPI</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
@@ -45551,11 +45555,11 @@
 	</attribute>
 	<attribute>
 		<id>FABRIC_CHIP_ID</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FABRIC_GROUP_ID</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -45571,11 +45575,11 @@
 	</attribute>
 	<attribute>
 		<id>PBAX_CHIPID</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PBAX_GROUPID</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
