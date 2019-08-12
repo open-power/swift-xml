@@ -20029,7 +20029,7 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_ERROR_TEMP_DEG_C</id>
-		<default>5</default>
+		<default>95</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_READ_TIMEOUT_SEC</id>
@@ -45575,11 +45575,11 @@
 	</attribute>
 	<attribute>
 		<id>PBAX_CHIPID</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>PBAX_GROUPID</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
