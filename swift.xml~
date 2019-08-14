@@ -5128,10 +5128,10 @@
 	<id>FRU_ID</id>
 	<value>3</value>
 	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
+  <property><!-- dc99 -->
+  <id>IPMI_INSTANCE</id>
+  <value></value>
+  </property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/boot_count_sensor</id>
