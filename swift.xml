@@ -28503,7 +28503,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
-		<default>00</default>
+		<default>01</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>PCIE_LANE_EQUALIZATION</id>
@@ -28561,7 +28561,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
-		<default>00</default>
+		<default>01</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>PCIE_LANE_EQUALIZATION</id>
@@ -35381,15 +35381,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLA</id>
-		<default></default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLB</id>
-		<default></default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_CDR_GAIN</id>
-		<default></default>
+		<default>0x56,0x47,0x47,0x47</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_INIT_GAIN</id>
@@ -35425,7 +35425,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_SIGDET_LVL</id>
-		<default>0x0B</default>
+		<default>0x0A</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CNTL_REG1</id>
@@ -35445,7 +35445,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_DCLCK_ROT</id>
-		<default></default>
+		<default>0x0022</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_FIFO_CONFIG_OFFSET</id>
@@ -35453,15 +35453,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG1</id>
-		<default></default>
+		<default>0xAA7A</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG2</id>
-		<default></default>
+		<default>0x2000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_POWER_SEQ_ENABLE</id>
-		<default></default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -35604,7 +35604,7 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0xFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -35716,15 +35716,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLA</id>
-		<default></default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLB</id>
-		<default></default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_CDR_GAIN</id>
-		<default></default>
+		<default>0x56,0x47,0x47,0x47</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_INIT_GAIN</id>
@@ -35760,7 +35760,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_SIGDET_LVL</id>
-		<default>0x0B</default>
+		<default>0x0A</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CNTL_REG1</id>
@@ -35780,7 +35780,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_DCLCK_ROT</id>
-		<default></default>
+		<default>0x0022</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_FIFO_CONFIG_OFFSET</id>
@@ -35788,15 +35788,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG1</id>
-		<default></default>
+		<default>0xAA7A</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG2</id>
-		<default></default>
+		<default>0x2000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_POWER_SEQ_ENABLE</id>
-		<default></default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -35940,7 +35940,7 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0xFF00</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -36075,11 +36075,11 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_GROUP</id>
-		<default>0</default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0x00FF</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -36193,15 +36193,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLA</id>
-		<default></default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_PCLCK_CNTL_PLLB</id>
-		<default></default>
+		<default>0xF8</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_CDR_GAIN</id>
-		<default></default>
+		<default>0x56,0x47,0x47,0x47</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_INIT_GAIN</id>
@@ -36237,7 +36237,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_SIGDET_LVL</id>
-		<default>0x0B</default>
+		<default>0x0A</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CNTL_REG1</id>
@@ -36257,7 +36257,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_DCLCK_ROT</id>
-		<default></default>
+		<default>0x0022</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_FIFO_CONFIG_OFFSET</id>
@@ -36265,15 +36265,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG1</id>
-		<default></default>
+		<default>0xAA7A</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_PCIE_RECV_DETECT_CNTL_REG2</id>
-		<default></default>
+		<default>0x2000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_TX_POWER_SEQ_ENABLE</id>
-		<default></default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -36630,7 +36630,7 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0xFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -36769,7 +36769,7 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -36934,7 +36934,7 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -37073,7 +37073,7 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
@@ -37212,7 +37212,7 @@
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_MASK</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_LANE_SET</id>
