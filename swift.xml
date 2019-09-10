@@ -32911,7 +32911,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
@@ -32935,7 +32935,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default>1</default>
+		<default>7</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -33079,7 +33079,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
@@ -33158,7 +33158,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x02</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
@@ -33375,7 +33375,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
@@ -33454,7 +33454,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
@@ -33622,7 +33622,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x02</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
@@ -33709,7 +33709,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
-		<default>0xFF</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
@@ -34183,7 +34183,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
@@ -34207,7 +34207,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default>8</default>
+		<default>14</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -34262,7 +34262,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
@@ -34286,7 +34286,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
-		<default>9</default>
+		<default>15</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -34430,7 +34430,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
@@ -34509,7 +34509,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x02</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
@@ -34726,7 +34726,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
@@ -34805,7 +34805,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
@@ -34973,7 +34973,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x02</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
@@ -35052,7 +35052,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
