@@ -3501,6 +3501,10 @@
 		<name>OCAPI</name>
 		<value>0x3</value>
 		</enumerator>
+		<enumerator>
+		<name>NOT_WIRED</name>
+		<value>0x4</value>
+		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>PAYLOAD_KIND</id>
@@ -37788,7 +37792,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>NV</default>
+		<default>NOT_WIRED</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
@@ -37883,7 +37887,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>NV</default>
+		<default>NOT_WIRED</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
@@ -37978,7 +37982,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>NV</default>
+		<default>NOT_WIRED</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
