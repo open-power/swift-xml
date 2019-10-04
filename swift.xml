@@ -3501,10 +3501,6 @@
 		<name>OCAPI</name>
 		<value>0x3</value>
 		</enumerator>
-		<enumerator>
-		<name>NOT_WIRED</name>
-		<value>0x4</value>
-		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>PAYLOAD_KIND</id>
@@ -37295,7 +37291,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_O_CHANNEL_TYPE</id>
-		<default>0x0</default>
+		<default>BOARD</default>
 	</attribute>
 	<attribute>
 		<id>IO_O_MFG_CHK</id>
@@ -37320,10 +37316,6 @@
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
 		<default>NV</default>
-	</attribute>
-	<attribute>
-		<id>IO_O_CHANNEL_TYPE</id>
-		<default>BOARD</default>
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
