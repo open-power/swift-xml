@@ -3501,6 +3501,10 @@
 		<name>OCAPI</name>
 		<value>0x3</value>
 		</enumerator>
+		<enumerator>
+		<name>NOT_WIRED</name>
+		<value>0x4</value>
+		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>PAYLOAD_KIND</id>
@@ -9784,7 +9788,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9799,7 +9803,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9814,7 +9818,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9829,7 +9833,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9982,7 +9986,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9997,7 +10001,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10012,7 +10016,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10027,7 +10031,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10180,7 +10184,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10195,7 +10199,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10210,7 +10214,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x92</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10225,7 +10229,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10378,7 +10382,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10393,7 +10397,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10408,7 +10412,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x92</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10423,7 +10427,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10569,7 +10573,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10584,7 +10588,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10599,7 +10603,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10614,7 +10618,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10767,7 +10771,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10782,7 +10786,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10797,7 +10801,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x92</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10812,7 +10816,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10958,7 +10962,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10973,7 +10977,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10988,7 +10992,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11003,7 +11007,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11149,7 +11153,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11164,7 +11168,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11179,7 +11183,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11194,7 +11198,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11347,7 +11351,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11362,7 +11366,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11377,7 +11381,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11392,7 +11396,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11538,7 +11542,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11553,7 +11557,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11568,7 +11572,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11583,7 +11587,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11729,7 +11733,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11744,7 +11748,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11759,7 +11763,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11774,7 +11778,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11920,7 +11924,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11935,7 +11939,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11950,7 +11954,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -11965,7 +11969,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12111,7 +12115,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12126,7 +12130,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12141,7 +12145,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12156,7 +12160,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12302,7 +12306,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12317,7 +12321,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12332,7 +12336,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12347,7 +12351,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12493,7 +12497,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12508,7 +12512,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12523,7 +12527,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12538,7 +12542,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12684,7 +12688,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12699,7 +12703,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12714,7 +12718,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12729,7 +12733,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12882,7 +12886,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12897,7 +12901,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12912,7 +12916,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -12927,7 +12931,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13080,7 +13084,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13095,7 +13099,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13110,7 +13114,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13125,7 +13129,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13278,7 +13282,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13293,7 +13297,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13308,7 +13312,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13323,7 +13327,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13476,7 +13480,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13491,7 +13495,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13506,7 +13510,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13521,7 +13525,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13674,7 +13678,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13689,7 +13693,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13704,7 +13708,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13719,7 +13723,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13865,7 +13869,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13880,7 +13884,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13895,7 +13899,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -13910,7 +13914,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -14056,7 +14060,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -14071,7 +14075,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -14086,7 +14090,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -14101,7 +14105,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -14247,7 +14251,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -14262,7 +14266,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x90</value>
+	<value>0xB0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -14277,7 +14281,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -14292,7 +14296,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xC0</value>
+	<value>0xB2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -32844,7 +32848,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -32923,7 +32927,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -33091,7 +33095,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -33170,7 +33174,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -33387,7 +33391,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -33466,7 +33470,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -33634,7 +33638,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -33713,7 +33717,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -33783,7 +33787,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_TX_FFE_PRECURSOR</id>
-		<default></default>
+		<default>0x0B</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_TX_MARGIN_RATIO</id>
@@ -33853,7 +33857,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_TX_FFE_PRECURSOR</id>
-		<default></default>
+		<default>0x0B</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_TX_MARGIN_RATIO</id>
@@ -33922,7 +33926,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_TX_FFE_PRECURSOR</id>
-		<default></default>
+		<default>0x0B</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_TX_MARGIN_RATIO</id>
@@ -34195,7 +34199,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -34274,7 +34278,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -34442,7 +34446,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -34521,7 +34525,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -34738,7 +34742,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -34817,7 +34821,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -34985,7 +34989,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -35064,7 +35068,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
+		<default>0x400</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
@@ -35134,7 +35138,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_TX_FFE_PRECURSOR</id>
-		<default></default>
+		<default>0x0B</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_TX_MARGIN_RATIO</id>
@@ -35204,7 +35208,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_TX_FFE_PRECURSOR</id>
-		<default></default>
+		<default>0x0B</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_TX_MARGIN_RATIO</id>
@@ -35273,7 +35277,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_TX_FFE_PRECURSOR</id>
-		<default></default>
+		<default>0x0B</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_TX_MARGIN_RATIO</id>
@@ -46360,7 +46364,7 @@
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
