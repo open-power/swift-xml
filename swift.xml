@@ -32,6 +32,45 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>BPM_UPDATE_BEHAVIOR</id>
+		<enumerator>
+		<name>FORCE_ALL</name>
+		<value>0x1111</value>
+		</enumerator>
+		<enumerator>
+		<name>FORCE_CONFIG_SKIP_FW</name>
+		<value>0x1011</value>
+		</enumerator>
+		<enumerator>
+		<name>SKIP_CONFIG_FORCE_FW</name>
+		<value>0x1110</value>
+		</enumerator>
+		<enumerator>
+		<name>DEFAULT_ALL</name>
+		<value>0x0000</value>
+		</enumerator>
+		<enumerator>
+		<name>FORCE_FW</name>
+		<value>0x1100</value>
+		</enumerator>
+		<enumerator>
+		<name>SKIP_FW</name>
+		<value>0x1000</value>
+		</enumerator>
+		<enumerator>
+		<name>SKIP_ALL</name>
+		<value>0x1010</value>
+		</enumerator>
+		<enumerator>
+		<name>SKIP_CONFIG</name>
+		<value>0x0010</value>
+		</enumerator>
+		<enumerator>
+		<name>FORCE_CONFIG</name>
+		<value>0x0011</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>BUS_TYPE</id>
 		<enumerator>
 		<name>CLK</name>
@@ -3278,11 +3317,22 @@
 		<value>0</value>
 		</enumerator>
 		<enumerator>
-		<name>FORCE_COMMODITY</name>
-		<value>2</value>
+		<name>REQUIRE_ENTERPRISE</name>
+		<value>1</value>
 		</enumerator>
 		<enumerator>
-		<name>FORCE_ENTERPRISE</name>
+		<name>FORCE_NONENTERPRISE</name>
+		<value>2</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>MSS_OCMB_EXP_BOOT_CONFIG_ADAPTATION_MODE</id>
+		<enumerator>
+		<name>DISABLE</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLE</name>
 		<value>1</value>
 		</enumerator>
 </enumerationType>
@@ -3310,17 +3360,6 @@
 		<enumerator>
 		<name>SERDES_23_46GBPS</name>
 		<value>2</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>MSS_OCMB_EXP_OMI_CFG_ENDIAN_CTRL</id>
-		<enumerator>
-		<name>BIG_ENDIAN</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>LITTLE_ENDIAN</name>
-		<value>0</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -3451,18 +3490,26 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>OMI_DL_LN_REV_ENABLE</id>
+	<id>OCMB_FW_UPDATE_BEHAVIOR</id>
 		<enumerator>
-		<name>DISABLED</name>
-		<value>0x00</value>
+		<name>FORCE_UPDATE</name>
+		<value>1</value>
 		</enumerator>
 		<enumerator>
-		<name>ENABLED</name>
-		<value>0x01</value>
+		<name>CHECK_BUT_NO_UPDATE</name>
+		<value>3</value>
+		</enumerator>
+		<enumerator>
+		<name>PREVENT_UPDATE</name>
+		<value>2</value>
+		</enumerator>
+		<enumerator>
+		<name>CHECK_VERSIONS</name>
+		<value>0</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>OMI_DL_X4_BACKOFF_ENABLE</id>
+	<id>OMI_DL_LN_REV_ENABLE</id>
 		<enumerator>
 		<name>DISABLED</name>
 		<value>0x00</value>
@@ -3498,12 +3545,12 @@
 		<value>0x2</value>
 		</enumerator>
 		<enumerator>
-		<name>OCAPI</name>
-		<value>0x3</value>
-		</enumerator>
-		<enumerator>
 		<name>NOT_WIRED</name>
 		<value>0x4</value>
+		</enumerator>
+		<enumerator>
+		<name>OCAPI</name>
+		<value>0x3</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -19786,7 +19833,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_SAFEMODE_DRAM_DATABUS_UTIL</id>
-		<default>0x000009C4</default>
+		<default>0x00002710</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_SAFEMODE_MEM_THROTTLED_N_COMMANDS_PER_PORT</id>
@@ -19835,10 +19882,6 @@
 	<attribute>
 		<id>MSS_OCMB_ENTERPRISE_POLICY</id>
 		<default>ALLOW_ENTERPRISE</default>
-	</attribute>
-	<attribute>
-		<id>MSS_OCMB_EXP_OMI_CFG_ENDIAN_CTRL</id>
-		<default>LITTLE_ENDIAN</default>
 	</attribute>
 	<attribute>
 		<id>MSS_OMI_EDPL_DISABLE</id>
@@ -29526,6 +29569,19 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>GPIO_INFO_PHYS_PRES</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>windowOpenPin</id><value></value></field>
+				<field><id>physicalPresencePin</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
 		<id>HDAT_I2C_ADDR</id>
 		<default></default>
 	</attribute>
@@ -32847,14 +32903,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default></default>
 	</attribute>
@@ -32924,14 +32972,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -33094,14 +33134,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default></default>
 	</attribute>
@@ -33171,14 +33203,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -33390,14 +33414,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default></default>
 	</attribute>
@@ -33467,14 +33483,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -33637,14 +33645,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default></default>
 	</attribute>
@@ -33714,14 +33714,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -34198,14 +34190,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default></default>
 	</attribute>
@@ -34275,14 +34259,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -34445,14 +34421,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default></default>
 	</attribute>
@@ -34522,14 +34490,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -34741,14 +34701,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default></default>
 	</attribute>
@@ -34818,14 +34770,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -34988,14 +34932,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default></default>
 	</attribute>
@@ -35065,14 +35001,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x400</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_X4_BACKOFF_ENABLE</id>
-		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -45926,6 +45854,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>MSS_OCMB_EXP_BOOT_CONFIG_ADAPTATION_MODE</id>
+		<default>ENABLE</default>
 	</attribute>
 	<attribute>
 		<id>MSS_OCMB_EXP_BOOT_CONFIG_LANE_MODE</id>
@@ -104115,14 +104047,48 @@
 	<child_id>PCA9847.RESET</child_id>
 	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_I2C_CONTROL_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>PCA9847</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -104694,15 +104660,49 @@
 	<child_id>PCA9847.RESET</child_id>
 	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_I2C_CONTROL_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>PCA9847</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>POSITION</id>
 		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
@@ -104731,15 +104731,49 @@
 	<child_id>PCA9847.RESET</child_id>
 	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_I2C_CONTROL_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>PCA9847</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>POSITION</id>
 		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
@@ -104768,15 +104802,49 @@
 	<child_id>PCA9847.RESET</child_id>
 	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_I2C_CONTROL_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>PCA9847</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>POSITION</id>
 		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
