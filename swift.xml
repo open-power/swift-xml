@@ -20384,7 +20384,7 @@
 	</attribute>
 	<attribute>
 		<id>TPM_REQUIRED</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
