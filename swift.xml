@@ -33705,7 +33705,7 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_LN_REV_ENABLE</id>
