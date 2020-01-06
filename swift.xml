@@ -19200,7 +19200,7 @@
 	</attribute>
 	<attribute>
 		<id>ALLOW_CALLHOME_ESELS_TO_BMC</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>ALL_MCS_IN_INTERLEAVING_GROUP</id>
@@ -19240,7 +19240,7 @@
 	</attribute>
 	<attribute>
 		<id>BMC_MAX_ERROR_LOG_SIZE</id>
-		<default>2048</default>
+		<default>4096</default>
 	</attribute>
 	<attribute>
 		<id>BOOT_FREQ_MHZ</id>
@@ -19521,7 +19521,7 @@
 	</attribute>
 	<attribute>
 		<id>MANUFACTURER</id>
-		<default></default>
+		<default>IBM</default>
 	</attribute>
 	<attribute>
 		<id>MAX_ALLOWED_DIMM_FREQ</id>
@@ -19557,7 +19557,7 @@
 	</attribute>
 	<attribute>
 		<id>MAX_VDD_CURRENT_READING</id>
-		<default>0x0000</default>
+		<default>0xB284</default>
 	</attribute>
 	<attribute>
 		<id>MEM_MIRRORING_ALLOWED</id>
@@ -19593,7 +19593,7 @@
 	</attribute>
 	<attribute>
 		<id>MNFG_FLAGS</id>
-		<default></default>
+		<default>0x0000000000000000</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_TH_CEN_L4_CACHE_CES</id>
@@ -19689,7 +19689,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_MEM_THROTTLE_DENOMINATOR</id>
-		<default></default>
+		<default>512</default>
 	</attribute>
 	<attribute>
 		<id>MRW_SAFEMODE_MEM_THROTTLE_NUMERATOR_PER_CHIP</id>
@@ -19777,7 +19777,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MAX_NUMBER_DIMMS_POSSIBLE_PER_VMEM_REGULATOR</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MEM_M_DRAM_CLOCKS</id>
@@ -19825,7 +19825,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_REFRESH_RATE_REQUEST</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_RESET_DELAY_BEFORE_CAL</id>
@@ -19857,7 +19857,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_THERMAL_MEMORY_POWER_LIMIT</id>
-		<default></default>
+		<default>0xFFFFF80000000708</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_VCS_OFFSET_ENABLE</id>
@@ -19958,7 +19958,7 @@
 	<attribute>
 		<id>NUMERIC_POD_TYPE_TEST</id>
 		<default>
-				<field><id>fsiPath</id><value></value></field>
+				<field><id>fsiPath</id><value>physical:sys-0</value></field>
 				<field><id>className</id><value></value></field>
 				<field><id>uint8</id><value></value></field>
 				<field><id>uint16</id><value></value></field>
@@ -20044,7 +20044,7 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_MEM_UTILIZATION_THROTTLING</id>
-		<default>5</default>
+		<default>25</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_POWER_CAP_WATTS</id>
@@ -20084,19 +20084,19 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_READ_TIMEOUT_SEC</id>
-		<default>10</default>
+		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_WEIGHT</id>
-		<default>10</default>
+		<default>9</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_QUAD_WEIGHT</id>
-		<default>10</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_REGULATOR_EFFICIENCY_FACTOR</id>
-		<default>0x55</default>
+		<default>0x5A</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_SOFT_MIN_PCAP_WATTS</id>
@@ -20108,19 +20108,19 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_VRM_READ_TIMEOUT_SEC</id>
-		<default>1</default>
+		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_VRM_VDD_DVFS_TEMP_DEG_C</id>
-		<default>0xFF</default>
+		<default>95</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_VRM_VDD_ERROR_TEMP_DEG_C</id>
-		<default>0xFF</default>
+		<default>105</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_VRM_VDD_READ_TIMEOUT_SEC</id>
-		<default>0xFF</default>
+		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>O_EREPAIR_THRESHOLD_FIELD</id>
@@ -20184,7 +20184,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_COMPATIBILITY_REQ</id>
-		<default></default>
+		<default>FORCED_NATIVE</default>
 	</attribute>
 	<attribute>
 		<id>PROC_EPS_TABLE_TYPE</id>
@@ -20392,7 +20392,7 @@
 	</attribute>
 	<attribute>
 		<id>VDD_CURRENT_OVERFLOW_WORKAROUND_ENABLE</id>
-		<default>0x0000</default>
+		<default>0x0001</default>
 	</attribute>
 	<attribute>
 		<id>VDM_EXTREME_THOTTLE_ENABLE</id>
@@ -20400,15 +20400,15 @@
 	</attribute>
 	<attribute>
 		<id>WOF_ENABLE_FRATIO</id>
-		<default>FIXED</default>
+		<default>STEPPED</default>
 	</attribute>
 	<attribute>
 		<id>WOF_ENABLE_VRATIO</id>
-		<default>FIXED</default>
+		<default>CALCULATED</default>
 	</attribute>
 	<attribute>
 		<id>WOF_POWER_LIMIT</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>WOF_TABLE_LID_NUMBER</id>
@@ -20416,7 +20416,7 @@
 	</attribute>
 	<attribute>
 		<id>WOF_VRATIO_SELECT</id>
-		<default>0x00</default>
+		<default>ACTIVE_CORES</default>
 	</attribute>
 	<attribute>
 		<id>X_EREPAIR_THRESHOLD_FIELD</id>
@@ -29843,27 +29843,27 @@
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VCS_UOHM</id>
-		<default></default>
+		<default>150</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VDD_UOHM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VDN_UOHM</id>
-		<default></default>
+		<default>50</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_VCS_UOHM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_VDD_UOHM</id>
-		<default></default>
+		<default>254</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_VDN_UOHM</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_SBE_MASTER_CHIP</id>
@@ -29907,7 +29907,7 @@
 	</attribute>
 	<attribute>
 		<id>TDP_RDP_CURRENT_FACTOR</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -29915,11 +29915,11 @@
 	</attribute>
 	<attribute>
 		<id>VCS_AVSBUS_BUSNUM</id>
-		<default>0xFF</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VCS_AVSBUS_RAIL</id>
-		<default>0xFF</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>VCS_I2C_BUSNUM</id>
