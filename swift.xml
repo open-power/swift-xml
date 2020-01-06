@@ -99892,7 +99892,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>20.04</default>
+		<default>180000</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -99900,11 +99900,11 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_ID</id>
-		<default>1</default>
+		<default>22</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
+		<default>-5</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -99928,15 +99928,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_MEMORY_PROC_0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>20.04</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -99948,7 +99948,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_MEMORY_PROC_0</default>
+		<default>IO_DISC_MISC</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -99960,11 +99960,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -99987,7 +99987,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>6.5</default>
+		<default>6500</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -99995,11 +99995,11 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_ID</id>
-		<default>2</default>
+		<default>20</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -100023,15 +100023,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>2</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_MEMORY_PROC_1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>6.5</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -100043,7 +100043,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_MEMORY_PROC_1</default>
+		<default>ADC_12V_PDB</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -100055,11 +100055,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -100082,7 +100082,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>9.117</default>
+		<default>29100</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -100090,11 +100090,11 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_ID</id>
-		<default>11</default>
+		<default>30</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
+		<default>-15</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -100122,11 +100122,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_2</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>9.117</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -100138,7 +100138,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_2</default>
+		<default>48P0VB_IMON_APSS</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -100150,11 +100150,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -100177,7 +100177,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>9.117</default>
+		<default>29100</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -100185,11 +100185,11 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_ID</id>
-		<default>12</default>
+		<default>31</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
+		<default>-15</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -100217,11 +100217,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_3</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>9.117</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -100233,7 +100233,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_3</default>
+		<default>48P0VC_IMON_APSS</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -100245,11 +100245,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -100272,7 +100272,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>9.117</default>
+		<default>29100</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -100280,11 +100280,11 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_ID</id>
-		<default>20</default>
+		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
+		<default>-15</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -100312,11 +100312,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_12V_SENSE</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>9.117</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -100328,7 +100328,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_12V_SENSE</default>
+		<default>48P0VD_IMON_APSS</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -100340,11 +100340,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -100367,7 +100367,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>9.117</default>
+		<default>29100</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -100375,11 +100375,11 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_ID</id>
-		<default>22</default>
+		<default>33</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
+		<default>-15</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -100407,11 +100407,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_TOTAL_SYS_CURRENT</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>9.117</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -100423,7 +100423,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_TOTAL_SYS_CURRENT</default>
+		<default>GND</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -100435,11 +100435,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -100462,7 +100462,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>9.117</default>
+		<default>22600</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -100470,11 +100470,11 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_ID</id>
-		<default>23</default>
+		<default>18</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
+		<default>-15</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -100502,11 +100502,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_MEM_CACHE</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>9.117</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -100518,7 +100518,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_MEM_CACHE</default>
+		<default>ADC_54V_PDB</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -100530,11 +100530,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -100557,7 +100557,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>20.04</default>
+		<default>23000</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -100569,7 +100569,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
+		<default>-15</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -100597,11 +100597,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_IO_A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>20.04</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -100613,7 +100613,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_IO_A</default>
+		<default>54V_CURR_PS</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -100625,11 +100625,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -100652,7 +100652,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>20.04</default>
+		<default>22900</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -100660,11 +100660,11 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_ID</id>
-		<default>3</default>
+		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
+		<default>-15</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -100692,11 +100692,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_MEMORY_PROC_2</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>20.04</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -100708,7 +100708,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_MEMORY_PROC_2</default>
+		<default>12V_CURR_PS</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -100720,11 +100720,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -100747,7 +100747,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>20.04</default>
+		<default>22900</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -100755,11 +100755,11 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_ID</id>
-		<default>4</default>
+		<default>6</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
+		<default>-15</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -100787,11 +100787,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_MEMORY_PROC_3</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>20.04</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -100803,7 +100803,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_MEMORY_PROC_3</default>
+		<default>12V_CURR_0P8VA</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -100815,11 +100815,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -100842,7 +100842,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>10</default>
+		<default>10400</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -100850,11 +100850,11 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_ID</id>
-		<default>5</default>
+		<default>9</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
+		<default>-15</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -100882,11 +100882,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VDD_PROC_0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>10</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -100898,7 +100898,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VDD_PROC_0</default>
+		<default>12V_CURR_CP0_MEM</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -100910,11 +100910,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -100937,7 +100937,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>10</default>
+		<default>10400</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -100945,11 +100945,11 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_ID</id>
-		<default>6</default>
+		<default>10</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
+		<default>-15</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -100977,11 +100977,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VDD_PROC_1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>10</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -100993,7 +100993,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VDD_PROC_1</default>
+		<default>12V_CURR_FAN</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -101005,11 +101005,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -101032,7 +101032,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>9.117</default>
+		<default>7540</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -101040,11 +101040,11 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_ID</id>
-		<default>7</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
+		<default>-15</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -101072,11 +101072,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VDD_PROC_2</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>9.117</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -101088,7 +101088,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VDD_PROC_2</default>
+		<default>12V_CURR_0P8VB</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -101100,11 +101100,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -101127,7 +101127,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>9.117</default>
+		<default>7540</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -101135,11 +101135,11 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_ID</id>
-		<default>8</default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
+		<default>-15</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -101167,11 +101167,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VDD_PROC_3</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>9.117</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -101183,7 +101183,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VDD_PROC_3</default>
+		<default>12V_CURR_CP1_MEM</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -101195,11 +101195,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -101222,7 +101222,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>1</default>
+		<default>29100</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -101230,11 +101230,11 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_ID</id>
-		<default>9</default>
+		<default>24</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0</default>
+		<default>-15</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -101262,11 +101262,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -101278,7 +101278,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_0</default>
+		<default>GND</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -101290,11 +101290,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -101317,7 +101317,7 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GAIN</id>
-		<default>6.494</default>
+		<default>29100</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_GROUND</id>
@@ -101325,11 +101325,11 @@
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_ID</id>
-		<default>10</default>
+		<default>29</default>
 	</attribute>
 	<attribute>
 		<id>ADC_CHANNEL_OFFSET</id>
-		<default>0.005</default>
+		<default>-15</default>
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -101357,11 +101357,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>6.494</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -101373,7 +101373,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_1</default>
+		<default>48P0VA_IMON_APSS</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
@@ -101385,11 +101385,11 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -101522,7 +101522,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_FAN_WATCHDOG_ERROR</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -101577,7 +101577,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_FAN_FULL_SPEED</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -101632,7 +101632,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default></default>
+		<default>THROTTLE_LATCHED_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -101687,7 +101687,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default></default>
+		<default>GPU0_VS0_PRSNT1_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -101742,7 +101742,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default></default>
+		<default>GPU1_VS0_PRSNT1_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -101797,7 +101797,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default></default>
+		<default>GPU2_VS1_PRSNT1_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -101852,7 +101852,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default></default>
+		<default>GPU3_VS1_PRSNT1_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -101907,7 +101907,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default></default>
+		<default>NVDIMM_EPOW_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -102013,11 +102013,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>4</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_FAN_RESERVED</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -102068,11 +102068,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>5</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_VR_HOT_MEM_PROC_0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -102123,11 +102123,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>6</default>
+		<default>#N/A</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_VR_HOT_MEM_PROC_1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -102292,7 +102292,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default></default>
+		<default>PS_FAN_DISABLE_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -102347,7 +102347,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default></default>
+		<default>BMC_FULL_SPEED_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
