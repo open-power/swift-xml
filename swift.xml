@@ -29919,11 +29919,11 @@
 	</attribute>
 	<attribute>
 		<id>VCS_AVSBUS_BUSNUM</id>
-		<default>0xFF</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VCS_AVSBUS_RAIL</id>
-		<default>0xFF</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>VCS_I2C_BUSNUM</id>
