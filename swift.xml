@@ -19332,11 +19332,11 @@
 	</attribute>
 	<attribute>
 		<id>DMI_EREPAIR_THRESHOLD_FIELD</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>DMI_EREPAIR_THRESHOLD_MNFG</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DO_ABUS_DECONFIG</id>
@@ -20128,11 +20128,11 @@
 	</attribute>
 	<attribute>
 		<id>O_EREPAIR_THRESHOLD_FIELD</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>O_EREPAIR_THRESHOLD_MNFG</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_KIND</id>
@@ -20424,11 +20424,11 @@
 	</attribute>
 	<attribute>
 		<id>X_EREPAIR_THRESHOLD_FIELD</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>X_EREPAIR_THRESHOLD_MNFG</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>power-def-filenames</id>
