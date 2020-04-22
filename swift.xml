@@ -19501,7 +19501,7 @@
 	</attribute>
 	<attribute>
 		<id>IS_MPIPL_SUPPORTED</id>
-		<default>0</default>
+		<default>1/default>
 	</attribute>
 	<attribute>
 		<id>IS_SIMULATION</id>
